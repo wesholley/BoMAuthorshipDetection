@@ -29,6 +29,13 @@ import os
 data = {}
 
 
+############################################################
+# This function will process a file that represents the number
+# of interjection that a author used in a given block and adds
+# it to 'data'
+############################################################
+def process_author_interjection_file(fileName):
+	return
 
 
 ############################################################
@@ -37,7 +44,7 @@ data = {}
 # It will also add all of the parts of speach(pos) the author used
 # in that block and count them as well. 
 ############################################################
-def process_file(fileName):
+def process_author_file(fileName):
 	author, block, junk = fileName.split('-')
 	
 	if not author in data.keys():
@@ -70,7 +77,8 @@ def process_file(fileName):
 if __name__ == '__main__':
 	for fileName in os.listdir("."):
 	    if fileName.endswith(".txt"):
-	        process_file(fileName)
-	        break
+	        process_author_file(fileName)
+	    # if fileName.endswith(".inter")
+	    # 	process_author_interjection_file(fileName)
 
 	print data
