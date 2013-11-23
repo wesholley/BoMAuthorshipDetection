@@ -39,8 +39,10 @@ def generate_array_of_Percent_ProperNouns_Vs_Pronouns(data):
 # array... and the values for that respective attrubute will be returned
 # by calling the function in the array with the 'data' object/dictionary
 # found in posCounter.py
+#
+# Format: (function, 'nameOfAtribute')
 ############################################################
-attribute_builder_functions_array = [generate_array_of_Percent_ProperNouns_Vs_Pronouns]
+attribute_builder_functions_array = [ (generate_array_of_Percent_ProperNouns_Vs_Pronouns, 'properNounsVsPronouns')]
 
 
 
@@ -62,8 +64,20 @@ def write_data_to_weka_data_file(data, file_name):
 
 
 ############################################################
+# Example:
+# @relation 'BOM_By_Author'
+# @attribute A0 {0,1}
+# @attribute A1 {0,1}
+# @attribute A2 {0,1}
+# @attribute DIST real
+# @attribute LNG numeric
+# @attribute class {0,1} or {Nephi, Alma, JesusChris, ...}
 ############################################################
 def write_header_to_file(file_name):
+	arff_file = open(file_name, 'w')
+
+	arff_file.write('@relation \'BOM_By_Author\'')
+
 	return
 
 ############################################################
