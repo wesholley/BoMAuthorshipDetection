@@ -13,12 +13,30 @@
 # This function will return an array that represents the
 # attribute value of %ProperNouns verus Prounouns.
 # the ith value represents the ith instance in our database.
+#
+# Criteria: Proper Nouns == (NP -- ProperN Singular, NPS -- plural),
+#			ProNouns == (PP -- Personal,   PP$ -- Posesive, 
+#						 WP -- wh-pronoun, WP$ -- wh-Possesive pronoun)
+#
 ############################################################
 def generate_array_of_Percent_ProperNouns_Vs_Pronouns(data):
 	attribute_array = []
 
-	
-	
+	for author in data.keys():
+		if author.find('Interjections') < 0: #Is not an Interjection Tag.
+			for block_number in range(0, len(data[author])):
+				np  = data[author][block_number]['NP'][0] #[0] Get me the count
+				nps = data[author][block_number]['NPS'][0]
+				pp  = data[author][block_number]['PP'][0]
+				pps = data[author][block_number]['PPS$'][0]
+				wp  = data[author][block_number]['WP'][0]
+				wps = data[author][block_number]['WP$'][0]
+
+				attribute_array.append(np + nps / float(pp+pps+wp+wps))
+
+	print "Remove When validated:"
+	print "Atrribute PPN/ProN:", attribute_array
+
 	return attribute_array
 
 ############################################################
@@ -44,14 +62,14 @@ def generate_array_of_Percent_ProperNouns_Vs_Pronouns(data):
 #
 # This array just tells our drive how to get each of these
 # data values...for example mine return all of the %ProperNounsVsPronouns.
-# ... Call me if this is no clear.
-
+# ... Call me if this is not clear.
+#
 # In other words...we will have an attribute for each functio in this
 # array... and the values for that respective attrubute will be returned
 # by calling the function in the array with the 'data' object/dictionary
 # found in posCounter.py
 #
-# Format: (function, 'nameOfAtribute')
+# Format: [(function, 'nameOfAtribute'),...]
 ############################################################
 attribute_builder_functions_array = [ (generate_array_of_Percent_ProperNouns_Vs_Pronouns, 'properNounsVsPronouns')]
 
