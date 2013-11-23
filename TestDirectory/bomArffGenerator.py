@@ -16,6 +16,9 @@
 ############################################################
 def generate_array_of_Percent_ProperNouns_Vs_Pronouns(data):
 	attribute_array = []
+
+	
+	
 	return attribute_array
 
 ############################################################
@@ -67,11 +70,12 @@ def get_attirbute_class_value_array(data):
 	class_array = []
 
 	for key in data.keys():
-		if key.find('Interjections') < 0:
+		if key.find('Interjections') < 0: #Is not an Interjection Tag. This avoids duplicates.
 			for i in range(0, len(data[key])):
 				class_array.append(key)
 
-
+	print "Remove when validated:"
+	print "Class Array:", class_array
 
 	return class_array
 
@@ -114,6 +118,8 @@ def write_header_to_file(data, file_name):
 	#Print Classes
 	arff_file.write('@attribute class {' + string_of_authors_with_commas + '}')
 
+	arff_file.close()
+
 	return
 
 ############################################################
@@ -136,6 +142,29 @@ def write_data_to_file(data, file_name):
 	for att in attribute_builder_functions_array:
 		att_arrays.append(att[0](data))
 
+	#Add Class assignments
+	att_arrays.append(get_attirbute_class_value_array(data))
 
+	#Check: 
+	#To check that each array has the same number of items
+	curr_length = len(att_arrays[0]) 
+	for array in att_arrays:
+		if not len(array) == curr_length:
+			print "\n\n\tHOLLY COW!!!!"
+			print "We have an error in our attribute array generation!"
+			print "I just discovered that the lengths of our attribute arrays don't match!"
+			print "I'm going to blow chunks and die!!"
+			return
+
+	#Write attribute and class values to file_name
+	for i in range(0, curr_length):
+		str_instance = ""
+		for array in att_arrays:
+			str_instance = str_instance + (',' if len(str_instance) > 0 else '') + array[i]
+		arff_file.write(str_instance)
+
+	arff_file.close()
+
+	print "Arff Generation:: Wrote:", len(att_arrays), "attributes, for", curr_length, 'intances.'
 
 	return
