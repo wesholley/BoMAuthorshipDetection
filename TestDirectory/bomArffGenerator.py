@@ -73,15 +73,26 @@ def write_data_to_weka_data_file(data, file_name):
 # @attribute LNG numeric
 # @attribute class {0,1} or {Nephi, Alma, JesusChris, ...}
 ############################################################
-def write_header_to_file(file_name):
+def write_header_to_file(file_name, data):
 	arff_file = open(file_name, 'w')
 
 	arff_file.write('@relation \'BOM_By_Author\'')
 
+	for att in attribute_builder_functions_array:
+		arff_file.write('@attribute ' + att[1] + 'numeric')
+
+	string_of_authors_with_commas = ""
+	for author in data.keys():
+		string_of_authors_with_commas = string_of_authors_with_commas + "," if len(string_of_authors_with_commas > 0 else "" + author
+
+	arff_file.write('@attribute class {' + string_of_authors_with_commas + '}')
+
 	return
 
 ############################################################
+#
 ############################################################
 def write_data_to_file(data, file_name):
+	
 	return
 
