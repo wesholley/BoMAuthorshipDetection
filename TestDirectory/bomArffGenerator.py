@@ -1,4 +1,5 @@
-
+########################Create Attributes###################################
+# All of our jobs
 
 ############################################################
 # This function will return an array that represents the
@@ -33,6 +34,11 @@ def generate_array_of_Percent_ProperNouns_Vs_Pronouns(data):
 # This array just tells our drive how to get each of these
 # data values...for example mine return all of the %ProperNounsVsPronouns.
 # ... Call me if this is no clear.
+
+# In other words...we will have an attribute for each functio in this
+# array... and the values for that respective attrubute will be returned
+# by calling the function in the array with the 'data' object/dictionary
+# found in posCounter.py
 ############################################################
 attribute_builder_functions_array = [generate_array_of_Percent_ProperNouns_Vs_Pronouns]
 
@@ -41,6 +47,9 @@ attribute_builder_functions_array = [generate_array_of_Percent_ProperNouns_Vs_Pr
 
 
 
+
+########################Create the General Structure of the ARFF File###################################
+# Chris's Job
 
 
 ############################################################
