@@ -1,6 +1,14 @@
 ########################Create Attributes###################################
 # All of our jobs
 
+
+## !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+## Make sure when you are building you attribute arrays you alwasy
+## run through the data (data structure/dictionary) by iterating
+## through data.keys().  This will ensure our ordering is alwyas
+## the same.  See get_attirbute_class_value_array for example of
+## how i build the class attribute array...
+
 ############################################################
 # This function will return an array that represents the
 # attribute value of %ProperNouns verus Prounouns.
@@ -53,13 +61,28 @@ attribute_builder_functions_array = [ (generate_array_of_Percent_ProperNouns_Vs_
 ########################Create the General Structure of the ARFF File###################################
 # Chris's Job
 
+############################################################
+############################################################
+def get_attirbute_class_value_array(data):
+	class_array = []
+
+	for key in data.keys():
+		if key.find('Interjections') < 0:
+			for i in range(0, len(data[key])):
+				class_array.append(key)
+
+
+
+	return class_array
+
 
 ############################################################
 # This function will write the bom_data to a weka file_name.arff
 # file.
 ############################################################
 def write_data_to_weka_data_file(data, file_name):
-
+	write_header_to_file(data, file_name)
+	write_data_to_file(data, file_name)
 	return
 
 
@@ -73,26 +96,46 @@ def write_data_to_weka_data_file(data, file_name):
 # @attribute LNG numeric
 # @attribute class {0,1} or {Nephi, Alma, JesusChris, ...}
 ############################################################
-def write_header_to_file(file_name, data):
+def write_header_to_file(data, file_name):
 	arff_file = open(file_name, 'w')
 
+	#Print Name of Database
 	arff_file.write('@relation \'BOM_By_Author\'')
 
+	#Print Atributes
 	for att in attribute_builder_functions_array:
 		arff_file.write('@attribute ' + att[1] + 'numeric')
 
+	#Get Classes
 	string_of_authors_with_commas = ""
 	for author in data.keys():
-		string_of_authors_with_commas = string_of_authors_with_commas + "," if len(string_of_authors_with_commas > 0 else "" + author
+		string_of_authors_with_commas = string_of_authors_with_commas + (',' if len(string_of_authors_with_commas) > 0 else "") + author
 
+	#Print Classes
 	arff_file.write('@attribute class {' + string_of_authors_with_commas + '}')
 
 	return
 
 ############################################################
-#
+# This function use attribute_builder_functions_array to 
+# generate attribute values and then write those to the file.
+# This function assumes that the data file has already
+# had its header info writen.
+# Example:
+# @DATA
+# 5.1,3.5,1.4,0.2,Iris-setosa
+# ...
 ############################################################
 def write_data_to_file(data, file_name):
-	
-	return
+	arff_file = open(file_name, 'a')
 
+	arff_file.write('@data')
+
+	#Build Attribute arrays
+	att_arrays = []
+	for att in attribute_builder_functions_array:
+		att_arrays.append(att[0](data))
+
+
+
+	return

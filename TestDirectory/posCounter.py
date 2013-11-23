@@ -16,7 +16,12 @@ import os
 #			]
 #	'Alma': [...],
 #	...
-#	'Nehpi-Interjections': [ 10, ['o', 'behold', 'interjection', ...]],
+#	'Nehpi-Interjections':  [	#block 0
+								[ 10, ['o', 'behold', 'interjection', ...]],
+								#block 1
+								[ 11, ['o', 'behold', 'interjection', ...]],
+								...
+							],
 #	'Alma-Interjections': [...],
 # 	...
 # }
