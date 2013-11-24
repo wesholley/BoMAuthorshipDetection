@@ -23,16 +23,15 @@ def generate_array_of_Percent_ProperNouns_Vs_Pronouns(data):
 	attribute_array = []
 
 	for author in data.keys():
-		if author.find('Interjections') < 0: #Is not an Interjection Tag.
-			for block_number in range(0, len(data[author])):
-				np  = data[author][block_number]['NP'][0] #[0] Get me the count
-				nps = data[author][block_number]['NPS'][0]
-				pp  = data[author][block_number]['PP'][0]
-				pps = data[author][block_number]['PPS$'][0]
-				wp  = data[author][block_number]['WP'][0]
-				wps = data[author][block_number]['WP$'][0]
+		for block_number in range(0, len(data[author])):
+			np  = data[author][block_number]['NP'][0] #[0] Get me the count
+			nps = data[author][block_number]['NPS'][0]
+			pp  = data[author][block_number]['PP'][0]
+			pps = data[author][block_number]['PPS$'][0]
+			wp  = data[author][block_number]['WP'][0]
+			wps = data[author][block_number]['WP$'][0]
 
-				attribute_array.append(np + nps / float(pp+pps+wp+wps))
+			attribute_array.append(np + nps / float(pp+pps+wp+wps))
 
 	print "Remove When validated:"
 	print "Atrribute PPN/ProN:", attribute_array
@@ -88,9 +87,8 @@ def get_attirbute_class_value_array(data):
 	class_array = []
 
 	for key in data.keys():
-		if key.find('Interjections') < 0: #Is not an Interjection Tag. This avoids duplicates.
-			for i in range(0, len(data[key])):
-				class_array.append(key)
+		for i in range(0, len(data[key])):
+			class_array.append(key)
 
 	print "Remove when validated:"
 	print "Class Array:", class_array

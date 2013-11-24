@@ -8,22 +8,16 @@ import os
 #				#block 0
 #				{'NN': [10, ['nephi', 'bob', 'noun'...]],
 #				 'AJ': [20, ['quikly', 'sharply', 'adjictive'...]],
-#				 ...},
+#				 ...,
+#				"Interjections":{'yea': 3, 'behold': 1, 'wo': 1} 
+#				},
 #				 #block 1 
-#				 {'NN': [1,['obo']], ... },
+#				 {'NN': [1,['obo']], ...,"Interjections":{'yea': 3, 'behold': 1, 'wo': 1}},
 #				 #block n
 #				 ...
 #			]
 #	'Alma': [...],
 #	...
-#	'Nehpi-Interjections':  [	#block 0
-#								[ 10, ['o', 'behold', 'interjection', ...]],
-#								#block 1
-#								[ 11, ['o', 'behold', 'interjection', ...]],
-#								...
-#							],
-#	'Alma-Interjections': [...],
-# 	...
 # }
 ############################################################
 data = {}
