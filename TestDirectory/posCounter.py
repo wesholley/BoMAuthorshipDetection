@@ -41,6 +41,8 @@ def process_author_interjection_file(fileName):
 def process_author_file(fileName):
 	author, block, junk = fileName.split('-')
 	
+	#TODO::: Call process_author_interjection_file(author+'-'+block+'-interjection.inter')
+
 	if not author in data.keys():
 		data[author] = []
 
@@ -72,7 +74,5 @@ if __name__ == '__main__':
 	for fileName in os.listdir("."):
 	    if fileName.endswith(".txt"):
 	        process_author_file(fileName)
-	    # if fileName.endswith(".inter")
-	    # 	process_author_interjection_file(fileName)
 
 	print data
