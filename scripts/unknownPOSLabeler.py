@@ -23,36 +23,31 @@ def load_proper_nouns(directory, filename):
 
 ############################################################
 # Processes the fileName at directory, opening the file and 
-# giving the unknown parts of speech a tag, then appending
-# that word with the newly taggd part of speech at the end 
-# of the file, leaving the "unknown" word up above
+# giving replacing all words tagged as UNKNOWN as either
+# proper nouns or transitive verbs, based on whether or not
+# they are in the list of proper nouns found in the Book of Mormon
 ############################################################
 def process_author_file(directory, fileName):
     print "directory", directory, "fileName", fileName
     author, block, junk = fileName.split('-')
     unknown_words = {}
-    line_count = 0
     
     # Open the file and find unknown tags
-    f = open(directory + fileName, 'w')
-    for line in f:
-        line_count = line_count + 1
+    f_read = open(directory + fileName)
+    output = ""
+    
+    for line in f_read:
         word, classification = line.strip('\n').split('/')
-        if (classification == 'UNKNOWN') and (not word in unknown_words.keys()):
-            print "unknown:", word, classification 
-            if word in proper_nouns:
-                
-                unknown_words[word] = 'NP'  #proper noun
+        if (classification == 'UNKNOWN') and (not word.lower() in unknown_words.keys()):
+            if word.lower() in proper_nouns.keys():
+                line = line.replace(classification, 'NP')
             else:
-                #TODO - check this tag--should be transitive verb
-                unknown_words[word] = 'VBN' #transitive verb
-        
-    # Appends all of the now-tagged "unknown" words
-    # to the end of the file with their new tags
-    with open(directory+fileName, "a") as myfile:
-        for word in unknown_words.keys():
-            print word, unknown_words[word]
-            myfile.write(word + '/' + unknown_words[word] + '\n')
+                line = line.replace(classification, 'VBN')  #TODO - check this tag--should be transitive verb
+        output = output + line
+    f_read.close()
+
+    f_write = open(directory + fileName, 'w')
+    f_write.write(output)
             
     return
 
