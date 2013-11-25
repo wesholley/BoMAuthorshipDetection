@@ -1,6 +1,7 @@
 import os
 import string
 input_dir = '../200WordBlocks'
+output_dir = '../TestDirectory'
 
 #FEEL FREE TO ADD TO THESE INTERJECTION LISTS IF YOU CAN FIND OTHER EXAMPLES
 
@@ -72,9 +73,11 @@ def main():
         for file in os.listdir(''.join(path)):
             filepath = path
             if file.endswith('.txt'):
-                writefile = file[:-3]+'inter'
+                author, block, good = file.split('_')
+                block_num, extension = good.split('.')
+                writefile = author + "-" + block_num + "-interjections.inter"
                 get_block(''.join(filepath)+'/'+file,
-                          ''.join(filepath)+'/'+writefile)
+                          output_dir+'/'+writefile)
     print("All Done!")
 
 if __name__ == '__main__':
