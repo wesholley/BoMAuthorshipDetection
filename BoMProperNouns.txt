@@ -1,344 +1,343 @@
-Aaron
-Abel
-Abinadi
-Abinadom
-Abish
-Ablom
-Abraham
-Adam
-Agosh
-Aha
-Ahah
-Ahaz
-Aiath
-Akish
-Alma
-Alpha
-Amaleki
-Amalekite
-Amalickiah
-Amalickiahite
-Amaron
-Amgid
-Aminadab
-Aminadi
-Amlici
-Amlicite
-Ammah
-Ammaron
-Ammon
-Ammonihah
-Ammonihahite
-Ammonite
-Ammoron
-Amnigaddah
-Amnihu
-Amnor
-Amoron
-Amos
-Amoz
-Amulek
-Amulon
-Amulonites
-Anathoth
-Angola
-Ani-Anti
-Anti-Nephi-Lehi
-Anti-Nephi-Lehies
-Antiomno
-Antion
-Antionah
-Antionum
-Antiparah
-Antipas
-Antipus
-Antum
-Archeantus
-Arpad
-Assyria
-Babylon
-Bashan
-Benjamin
-Bethabara
-Boaz
-Bountiful
-Cain
-Calno
-Carchemish
-Cezoram
-Chaldeans
-Chaldees
-Chemish
-Cherubim
-Cohor
-Com
-Comnor
-Corianton
-Coriantor
-Coriantum
-Coriantumr
-Corihor
-Corom
-Cumeni
-Cumenihah
-Cumom
-Cumorah
-Curelom
-Deseret
-Desolation
-Edom
-Egypt
-Egyptian
-Elam
-Elijah
-Emer
-Emron
-Enos
-Ephah
-Ephraim
-Esrom
-Ethem
-Ether
-Eve
-Ezias
-Ezrom
-Gad
-Gadiandi
-Gadianton
-Gadiomnah
-Gallim
-Gazelem
-Geba
-Gebim
-Gibeah
-Gid
-Giddianhi
-Giddonah
-Gideon
-Gidgiddonah
-Gidgiddoni
-Gilead
-Gilgah
-Gilgal
-Gimgimno
-Gomorrah
-Hagoth
-Hamath
-Hearthom
-Helam
-Helaman
-Helem
-Helorum
-Hem
-Hermounts
-Heshlon
-Heth
-Himni
-Horeb
-Immanuel
-Irreantum
-Isaac
-Isabel
-Isaiah
-Ishmael
-Ishmaelite
-Israel
-Israelite
-Jacob
-Jacobite
-Jacobugath
-Jacom
-Jared
-Jaredite
-Jarom
-Jashon
-Jeberechiah
-Jehovah
-Jeneum
-Jeremiah
-Jershon
-Jerusalem
-Jesse
-Jew
-John
-Jonas
-Jordan
-Joseph
-Josephite
-Josh
-Joshua
-Jotham
-Judah
-Judea
-Kib
-Kim
-Kimnor
-Kish
-Kishkumen
-Korihor
-Kumen
-Kumenonhi
-Laban
-Lachoneus
-Laish
-Lamah
-Laman
-Lamanite
-Lamoni
-Lebanon
-Lehi
-Lehi-Nephi
-Lehonti
-Lemuel
-Lemuelite
-Levi
-Liahona
-Lib
-Limhah
-Limher
-Limhi
-Limnah
-Luram
-Madmenah
-Mahah
-Maher-shalal-hash-baz
-Malachi
-Manasseh
-Manti
-Mary
-Mathoni
-Mathonihah
-Medes
-Melchizedek
-Melek
-Michmash
-Middoni
-Midian
-Migron
-Minon
-Moab
-Mocum
-Moriancumer
-Morianton
-Moriantum
-Mormon
-Moron
-Moroni
-Moronihah
-Moses
-Mosiah
-Mulek
-Muloki
-Nahom
-Naphtali
-Nazareth
-Neas
-Nehor
-Nephi
-Nephihah
-Nephite
-Neum
-Nimrah
-Nimrod
-Noah
-Ogath
-Omega
-Omer
-Omner
-Omni
-Onidah
-Onihah
-Onti
-Ophir
-Oreb
-Orihah
-Paanchi
-Pachus
-Pacumeni
-Pagag
-Pahoran
-Palestina
-Pathros
-Pekah
-Pharaoh
-Philistine
-Rabbanah
-Rahab
-Ramah
-Ramath
-Rameumptom
-Remaliah
-Rezin
-Riplah
-Riplakish
-Ripliancum
-Salem
-Sam
-Samaria
-Samuel
-Sarah
-Sariah
-Saul
-Seantum
-Sebus
-Seezoram
-Senine
-Senum
-Seraphim
-Seth
-Shared
-Shazer
-Shearjashub
-Shelem
-Shem
-Shemlon
-Shemnon
-Sherem
-Sherrizah
-Sheum
-Shez
-Shiblom
-Shiblon
-Shiblum
-Shiloah
-Shilom
-Shim
-Shimnilom
-Shinar
-Shiz
-Shule
-Shum
-Shurr
-Sidom
-Sidon
-Sinai
-Sinim
-Siron
-Syria
-Tarshish
-Teancum
-Teomner
-Thummim
-Timothy
-Tubaloth
-Uriah
-Urim
-Uzziah
-Zarahemla
-Zebulun
-Zechariah
-Zedekiah
-Zeezrom
-Zemnarihah
-Zenephi
-Zeniff
-Zenock
-Zenos
-Zerahemnah
-Zeram
-Zerin
-Ziff
-Zion
-Zoram
-Zoramite
-
+Aaron	NP
+Abel	NP
+Abinadi	NP
+Abinadom	NP
+Abish	NP
+Ablom	NP
+Abraham	NP
+Adam	NP
+Agosh	NP
+Aha	NP
+Ahah	NP
+Ahaz	NP
+Aiath	NP
+Akish	NP
+Alma	NP
+Alpha	NP
+Amaleki	NP
+Amalekite	NP
+Amalickiah	NP
+Amalickiahite	NP
+Amaron	NP
+Amgid	NP
+Aminadab	NP
+Aminadi	NP
+Amlici	NP
+Amlicite	NP
+Ammah	NP
+Ammaron	NP
+Ammon	NP
+Ammonihah	NP
+Ammonihahite	NP
+Ammonite	NP
+Ammoron	NP
+Amnigaddah	NP
+Amnihu	NP
+Amnor	NP
+Amoron	NP
+Amos	NP
+Amoz	NP
+Amulek	NP
+Amulon	NP
+Amulonites	NP
+Anathoth	NP
+Angola	NP
+Ani-Anti	NP
+Anti-Nephi-Lehi	NP
+Anti-Nephi-Lehies	NP
+Antiomno	NP
+Antion	NP
+Antionah	NP
+Antionum	NP
+Antiparah	NP
+Antipas	NP
+Antipus	NP
+Antum	NP
+Archeantus	NP
+Arpad	NP
+Assyria	NP
+Babylon	NP
+Bashan	NP
+Benjamin	NP
+Bethabara	NP
+Boaz	NP
+Bountiful	NP
+Cain	NP
+Calno	NP
+Carchemish	NP
+Cezoram	NP
+Chaldeans	NP
+Chaldees	NP
+Chemish	NP
+Cherubim	NP
+Cohor	NP
+Com	NP
+Comnor	NP
+Corianton	NP
+Coriantor	NP
+Coriantum	NP
+Coriantumr	NP
+Corihor	NP
+Corom	NP
+Cumeni	NP
+Cumenihah	NP
+Cumom	NP
+Cumorah	NP
+Curelom	NP
+Deseret	NP
+Desolation	NP
+Edom	NP
+Egypt	NP
+Egyptian	NP
+Elam	NP
+Elijah	NP
+Emer	NP
+Emron	NP
+Enos	NP
+Ephah	NP
+Ephraim	NP
+Esrom	NP
+Ethem	NP
+Ether	NP
+Eve	NP
+Ezias	NP
+Ezrom	NP
+Gad	NP
+Gadiandi	NP
+Gadianton	NP
+Gadiomnah	NP
+Gallim	NP
+Gazelem	NP
+Geba	NP
+Gebim	NP
+Gibeah	NP
+Gid	NP
+Giddianhi	NP
+Giddonah	NP
+Gideon	NP
+Gidgiddonah	NP
+Gidgiddoni	NP
+Gilead	NP
+Gilgah	NP
+Gilgal	NP
+Gimgimno	NP
+Gomorrah	NP
+Hagoth	NP
+Hamath	NP
+Hearthom	NP
+Helam	NP
+Helaman	NP
+Helem	NP
+Helorum	NP
+Hem	NP
+Hermounts	NP
+Heshlon	NP
+Heth	NP
+Himni	NP
+Horeb	NP
+Immanuel	NP
+Irreantum	NP
+Isaac	NP
+Isabel	NP
+Isaiah	NP
+Ishmael	NP
+Ishmaelite	NP
+Israel	NP
+Israelite	NP
+Jacob	NP
+Jacobite	NP
+Jacobugath	NP
+Jacom	NP
+Jared	NP
+Jaredite	NP
+Jarom	NP
+Jashon	NP
+Jeberechiah	NP
+Jehovah	NP
+Jeneum	NP
+Jeremiah	NP
+Jershon	NP
+Jerusalem	NP
+Jesse	NP
+Jew	NP
+John	NP
+Jonas	NP
+Jordan	NP
+Joseph	NP
+Josephite	NP
+Josh	NP
+Joshua	NP
+Jotham	NP
+Judah	NP
+Judea	NP
+Kib	NP
+Kim	NP
+Kimnor	NP
+Kish	NP
+Kishkumen	NP
+Korihor	NP
+Kumen	NP
+Kumenonhi	NP
+Laban	NP
+Lachoneus	NP
+Laish	NP
+Lamah	NP
+Laman	NP
+Lamanite	NP
+Lamoni	NP
+Lebanon	NP
+Lehi	NP
+Lehi-Nephi	NP
+Lehonti	NP
+Lemuel	NP
+Lemuelite	NP
+Levi	NP
+Liahona	NP
+Lib	NP
+Limhah	NP
+Limher	NP
+Limhi	NP
+Limnah	NP
+Luram	NP
+Madmenah	NP
+Mahah	NP
+Maher-shalal-hash-baz	NP
+Malachi	NP
+Manasseh	NP
+Manti	NP
+Mary	NP
+Mathoni	NP
+Mathonihah	NP
+Medes	NP
+Melchizedek	NP
+Melek	NP
+Michmash	NP
+Middoni	NP
+Midian	NP
+Migron	NP
+Minon	NP
+Moab	NP
+Mocum	NP
+Moriancumer	NP
+Morianton	NP
+Moriantum	NP
+Mormon	NP
+Moron	NP
+Moroni	NP
+Moronihah	NP
+Moses	NP
+Mosiah	NP
+Mulek	NP
+Muloki	NP
+Nahom	NP
+Naphtali	NP
+Nazareth	NP
+Neas	NP
+Nehor	NP
+Nephi	NP
+Nephihah	NP
+Nephite	NP
+Neum	NP
+Nimrah	NP
+Nimrod	NP
+Noah	NP
+Ogath	NP
+Omega	NP
+Omer	NP
+Omner	NP
+Omni	NP
+Onidah	NP
+Onihah	NP
+Onti	NP
+Ophir	NP
+Oreb	NP
+Orihah	NP
+Paanchi	NP
+Pachus	NP
+Pacumeni	NP
+Pagag	NP
+Pahoran	NP
+Palestina	NP
+Pathros	NP
+Pekah	NP
+Pharaoh	NP
+Philistine	NP
+Rabbanah	NP
+Rahab	NP
+Ramah	NP
+Ramath	NP
+Rameumptom	NP
+Remaliah	NP
+Rezin	NP
+Riplah	NP
+Riplakish	NP
+Ripliancum	NP
+Salem	NP
+Sam	NP
+Samaria	NP
+Samuel	NP
+Sarah	NP
+Sariah	NP
+Saul	NP
+Seantum	NP
+Sebus	NP
+Seezoram	NP
+Senine	NP
+Senum	NP
+Seraphim	NP
+Seth	NP
+Shared	NP
+Shazer	NP
+Shearjashub	NP
+Shelem	NP
+Shem	NP
+Shemlon	NP
+Shemnon	NP
+Sherem	NP
+Sherrizah	NP
+Sheum	NP
+Shez	NP
+Shiblom	NP
+Shiblon	NP
+Shiblum	NP
+Shiloah	NP
+Shilom	NP
+Shim	NP
+Shimnilom	NP
+Shinar	NP
+Shiz	NP
+Shule	NP
+Shum	NP
+Shurr	NP
+Sidom	NP
+Sidon	NP
+Sinai	NP
+Sinim	NP
+Siron	NP
+Syria	NP
+Tarshish	NP
+Teancum	NP
+Teomner	NP
+Thummim	NP
+Timothy	NP
+Tubaloth	NP
+Uriah	NP
+Urim	NP
+Uzziah	NP
+Zarahemla	NP
+Zebulun	NP
+Zechariah	NP
+Zedekiah	NP
+Zeezrom	NP
+Zemnarihah	NP
+Zenephi	NP
+Zeniff	NP
+Zenock	NP
+Zenos	NP
+Zerahemnah	NP
+Zeram	NP
+Zerin	NP
+Ziff	NP
+Zion	NP
+Zoram	NP
+Zoramite	NP

@@ -3,16 +3,16 @@
 
 
 ## !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-## Make sure when you are building you attribute arrays you alwasy
+## Make sure when you are building your attribute arrays you always
 ## run through the data (data structure/dictionary) by iterating
-## through data.keys().  This will ensure our ordering is alwyas
-## the same.  See get_attirbute_class_value_array for example of
+## through data.keys().  This will ensure our ordering is always
+## the same.  See get_attribute_class_value_array for example of
 ## how i build the class attribute array...
 
 ############################################################
 # This function will return an array that represents the
-# attribute value of %ProperNouns verus Prounouns.
-# the ith value represents the ith instance in our database.
+# attribute value of %ProperNouns versus Pronouns.
+# the i'th value represents the i'th instance in our database.
 #
 # Criteria: Proper Nouns == (NP -- ProperN Singular, NPS -- plural),
 #			ProNouns == (PP -- Personal,   PP$ -- Posesive, 
@@ -41,16 +41,19 @@ def generate_array_of_Percent_ProperNouns_Vs_Pronouns(data):
 ############################################################
 # This array will be used to build the final weka.arff file.
 # The way it works is this:
-# I was given responcibility for the %properNounsVsPronouns,
-# so i created a function what will take our entire data structure(
-# the same 'data' dictionary found in posCounter.py) and will
-# simply create and array that represents this attribute value
+#
+# I was given responsibility for the %properNounsVsPronouns,
+# so i created a function what will take our entire data structure
+# (the same 'data' dictionary found in posCounter.py) and will
+# simply create an array that represents this attribute value
 # for each instance in our data structure.
-# This array will simple link in all of our work...
+
+# This array will simply link in all of our work.
+
 # So i will call each function in this array to build get back
-# all of the values for each indivdual attribute and then
+# all of the values for each individual attribute and then
 # append them all together to build our new data base weka file.
-# So we'll end up with somthing like:
+# So we'll end up with something like:
 # [%ProperNounsVsPronouns, InterjectionCnt, #Adjectives,..., Nephi,
 # %ProperNounsVsPronouns, InterjectionCnt, #Adjectives,..., Nephi,
 # %ProperNounsVsPronouns, InterjectionCnt, #Adjectives,..., Nephi,
@@ -59,11 +62,11 @@ def generate_array_of_Percent_ProperNouns_Vs_Pronouns(data):
 # %ProperNounsVsPronouns, InterjectionCnt, #Adjectives,..., Alma,
 # ...]
 #
-# This array just tells our drive how to get each of these
+# This array just tells our driver how to get each of these
 # data values...for example mine return all of the %ProperNounsVsPronouns.
 # ... Call me if this is not clear.
 #
-# In other words...we will have an attribute for each functio in this
+# In other words...we will have an attribute for each function in this
 # array... and the values for that respective attrubute will be returned
 # by calling the function in the array with the 'data' object/dictionary
 # found in posCounter.py
@@ -75,12 +78,8 @@ attribute_builder_functions_array = [ (generate_array_of_Percent_ProperNouns_Vs_
 
 
 
-
-
-
 ########################Create the General Structure of the ARFF File###################################
 # Chris's Job
-
 ############################################################
 ############################################################
 def get_attirbute_class_value_array(data):
@@ -97,8 +96,7 @@ def get_attirbute_class_value_array(data):
 
 
 ############################################################
-# This function will write the bom_data to a weka file_name.arff
-# file.
+# Writes the bom_data to a file_name.arff Weka file
 ############################################################
 def write_data_to_weka_data_file(data, file_name):
 	write_header_to_file(data, file_name)
@@ -181,6 +179,6 @@ def write_data_to_file(data, file_name):
 
 	arff_file.close()
 
-	print "Arff Generation:: Wrote:", len(att_arrays), "attributes, for", curr_length, 'intances.'
+	print "Arff Generation:: Wrote:", len(att_arrays), "attributes, for", curr_length, 'instances.'
 
 	return

@@ -1,8 +1,16 @@
+############################################################
+# DESCRIPTION:
+#
+# This script creates a data structure called "data" which 
+# counts each part of speech (referred to here as "pos") and
+# adds the count and enumeration of the individual parts of speech
+# to the structure called "data."  An example is seen just below.  
+############################################################
 
 import os
 
 ############################################################
-# Example:
+# Example of the final data structure:
 # { 'Nephi': 
 #			[
 #				#block 0
@@ -25,7 +33,7 @@ data = {}
 
 ############################################################
 # This function will process a file that represents the number
-# of interjection that a author used in a given block and adds
+# of interjections that a author used in a given block and adds
 # it to 'data'
 ############################################################
 def process_author_interjection_file(fileName):
@@ -33,35 +41,37 @@ def process_author_interjection_file(fileName):
 
 
 ############################################################
-# This function will open a file(An author's n^th block of text)
-# and add it to the authors current list of blocks.
-# It will also add all of the parts of speach(pos) the author used
-# in that block and count them as well. 
+# This function will open a file (an author's n^th block of text)
+# and add it to the author's current list of blocks in "data."
+# It will also add all of the parts of speech (pos) the author used
+# in that block and count them as well
 ############################################################
 def process_author_file(fileName):
+	print "fileName", fileName
 	author, block, junk = fileName.split('-')
 	
 	#TODO::: Call process_author_interjection_file(author+'-'+block+'-interjection.inter')
 
+	# Adds the author to "data" if they aren't already there
 	if not author in data.keys():
 		data[author] = []
 
-	#Generate Block from File
+	# Generate block from file
 	block_file = open(fileName, 'r')
 	block = {}
 	for word_and_pos in block_file:
 		word, pos = word_and_pos.strip().split('/')
 
-		#Add the Part of Speech if not already seen
+		# Add the Part of Speech if not already seen
 		if not pos in block.keys():
 			block[pos] = []
 			block[pos].append(0)
 			block[pos].append([])
 
-		block[pos][0] = block[pos][0] + 1 	#Count the number of Parts of Speach
-		block[pos][1].append(word)			#Keep track of each Part of Speach
+		block[pos][0] = block[pos][0] + 1 	#Count the number of Parts of Speech
+		block[pos][1].append(word)			#Keep track of each Part of Speech
 
-	#Add Block to Author
+	# Add block to author
 	data[author].append(block)
 
 	return
