@@ -39,7 +39,6 @@ def getBlocks(file, blocks_directory, filename):
         
         # update offset and curblock 
         offset = offset + 200
-        print curblock
         print "\t Written to:", file_directory
         curblock = ""
 
@@ -80,15 +79,16 @@ def getBlocksByLines(file_path, blocks_directory, filename):
             else:                           # keep building curBlock
                 curBlock = curBlock + line
                 blockLineCount = blockLineCount + 1
+        print "\n"
 
+            
 ############################################################
 # Saves a block to file
 ############################################################
 def saveBlockToFile(blocks_directory, filename, blockNumber, curBlock):
     # write block to a file in author-specific folder (blocks_directory)
-    if not os.path.exists(blocks_directory):
-        os.makedirs(blocks_directory)
-    
+#     if not os.path.exists(blocks_directory):
+#         os.makedirs(blocks_directory)
     block_destination = blocks_directory + "/" + filename + "_block_" + str(blockNumber) + ".txt" 
     block_file = open(block_destination, 'w+')
     block_file.write(curBlock)
@@ -102,7 +102,7 @@ def saveBlockToFile(blocks_directory, filename, blockNumber, curBlock):
 if __name__ == '__main__':
     """ load the files """
     INPUT_PATH = "../ParseReadyAuthors/"
-    OUTPUT_PATH = "../ParseReadyBlocks/testDir/"
+    OUTPUT_PATH = "../TestDirectory/"
     dir_contents = os.listdir(INPUT_PATH)   # this folder CANNOT HAVE SUB-FOLDERS or .read() will break
      
     # Break each author's text into blocks of 200 words
@@ -112,11 +112,7 @@ if __name__ == '__main__':
         print "file:" + file
         file_path = INPUT_PATH + file
         output_file = OUTPUT_PATH + file
-         
-    #     print "output", output_file
-    #     file = open(file_path, 'r')
-        
-        block_output_path = OUTPUT_PATH + dir_contents[x].strip('.txt')
-        temp = getBlocksByLines(file_path, block_output_path, dir_contents[x].strip('.txt.'))
+
+        temp = getBlocksByLines(file_path, OUTPUT_PATH, dir_contents[x].strip('.txt'))
     
     print "\n\nDone!"     
