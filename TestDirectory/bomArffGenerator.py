@@ -91,7 +91,7 @@ def get_attirbute_class_value_array(data):
 
 	for key in data.keys():
 		for i in range(0, len(data[key])):
-			class_array.append(key)
+			class_array.append(key.replace(' ', '').replace('\'', ''))
 
 	# print "Remove when validated:"
 	# print "Class Array:", class_array
@@ -131,7 +131,7 @@ def write_header_to_file(data, file_name):
 	#Get Classes
 	string_of_authors_with_commas = ""
 	for author in data.keys():
-		string_of_authors_with_commas = string_of_authors_with_commas + (',' if len(string_of_authors_with_commas) > 0 else "") + author
+		string_of_authors_with_commas = string_of_authors_with_commas + (',' if len(string_of_authors_with_commas) > 0 else "") + author.replace(' ', '').replace('\'', '')
 
 	#Print Classes
 	arff_file.write('@attribute class {' + string_of_authors_with_commas + '}\n')
