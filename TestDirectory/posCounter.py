@@ -1,3 +1,5 @@
+from bomArffGenerator import *
+
 ############################################################
 # DESCRIPTION:
 #
@@ -47,7 +49,7 @@ def process_author_interjection_file(fileName):
 # in that block and count them as well
 ############################################################
 def process_author_file(fileName):
-	print "fileName", fileName
+
 	author, block, junk = fileName.split('-')
 	
 	#TODO::: Call process_author_interjection_file(author+'-'+block+'-interjection.inter')
@@ -81,8 +83,18 @@ def process_author_file(fileName):
 #		required.
 ############################################################
 if __name__ == '__main__':
+	cnt = 0
+
 	for fileName in os.listdir("."):
 	    if fileName.endswith(".txt"):
+	    	cnt = cnt + 1
 	        process_author_file(fileName)
 
-	print data
+	print "Processed: ", cnt, " \".txt\" files."
+	print "Data structure written to data.data for review."
+	data_file = open('data.data', 'w')
+	data_file.write(str(data))
+
+	write_data_to_weka_data_file(data, 'test.arff')
+
+	print "...Done."
