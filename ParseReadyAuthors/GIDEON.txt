@@ -9,7 +9,7 @@ search/VB
 this/DT
 people/NNS
 and/CC
-lay/UNKNOWN
+lay/VBN
 not/RB
 this/DT
 thing/NN
@@ -193,8 +193,8 @@ the/DT
 shedding/NN
 of/IN
 so/RB
-much/UNKNOWN
-blood/UNKNOWN
+much/VBN
+blood/VBN
 Now/RB
 O/NP
 king/NN
@@ -237,7 +237,7 @@ if/IN
 thou/NN
 hast/VBP
 hitherto/RB
-listened/UNKNOWN
+listened/VBN
 to/TO
 my/PP$
 words/NNS
@@ -342,7 +342,7 @@ to/TO
 thy/JJ
 command/NN
 and/CC
-pay/UNKNOWN
+pay/VBN
 the/DT
 last/JJ
 tribute/NN

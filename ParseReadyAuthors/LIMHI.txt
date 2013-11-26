@@ -262,7 +262,7 @@ yet/CC
 I/PP
 trust/VBP
 there/RB
-remaineth/UNKNOWN
+remaineth/VBN
 an/DT
 effectual/JJ
 struggle/NN
@@ -311,7 +311,7 @@ land/NN
 of/IN
 Egypt/NP
 and/CC
-caused/UNKNOWN
+caused/VBN
 that/IN
 they/PP
 should/MD
@@ -650,7 +650,7 @@ among/IN
 them/PP
 even/RB
 so/RB
-much/UNKNOWN
+much/VBN
 that/IN
 they/PP
 did/VBD
@@ -682,7 +682,7 @@ wickedness/NN
 and/CC
 abominations/NNS
 and/CC
-prophesied/UNKNOWN
+prophesied/VBN
 of/IN
 many/JJ
 things/NNS
@@ -690,7 +690,7 @@ which/WDT
 are/VBP
 to/TO
 come/VB
-yea/UNKNOWN
+yea/VBN
 even/RB
 the/DT
 coming/NN
@@ -765,7 +765,7 @@ children/NNS
 of/IN
 men/NNS
 and/CC
-take/UNKNOWN
+take/VBN
 upon/IN
 him/PP
 flesh/NN
@@ -810,7 +810,7 @@ upon/IN
 them/PP
 Therefore/IN
 who/WP
-wondereth/UNKNOWN
+wondereth/VBN
 that/IN
 they/PP
 are/VBP
@@ -961,14 +961,14 @@ they/PP
 were/VBD
 diligent/JJ
 and/CC
-found/UNKNOWN
+found/VBN
 not/RB
 the/DT
 land/NN
 of/IN
 Zarahemla/NP
 but/CC
-returned/UNKNOWN
+returned/VBN
 to/TO
 this/DT
 land/NN
@@ -1186,7 +1186,7 @@ knowledge/NN
 of/IN
 this/DT
 very/RB
-people/UNKNOWN
+people/VBN
 who/WP
 have/VBP
 been/VBN
@@ -1268,7 +1268,7 @@ will/MD
 not/RB
 seek/VB
 wisdom/NN
-neither/UNKNOWN
+neither/VBN
 do/VBP
 they/PP
 desire/VB
@@ -1286,12 +1286,12 @@ a/DT
 wild/JJ
 flock/NN
 which/WDT
-fleeth/UNKNOWN
+fleeth/VBN
 from/IN
 the/DT
 shepherd/NN
 and/CC
-scattereth/UNKNOWN
+scattereth/VBN
 and/CC
 are/VBP
 driven/VBN

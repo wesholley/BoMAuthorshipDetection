@@ -44,7 +44,7 @@ your/PP$
 blood/NN
 for/IN
 power/NN
-neither/UNKNOWN
+neither/VBN
 do/VBP
 we/PP
 desire/VB
@@ -62,7 +62,7 @@ this/NN
 is/VBZ
 the/DT
 very/RB
-cause/UNKNOWN
+cause/VBN
 for/IN
 which/WDT
 ye/DT
@@ -424,7 +424,7 @@ therefore/IN
 as/IN
 the/DT
 Lord/NP
-liveth/UNKNOWN
+liveth/VBN
 ye/DT
 shall/MD
 not/RB
@@ -667,7 +667,7 @@ Jacob/NP
 And/RB
 now/RB
 who/WP
-knoweth/UNKNOWN
+knoweth/VBN
 but/CC
 what/WP
 the/DT
@@ -786,7 +786,7 @@ which/WDT
 thy/JJ
 brother/NN
 hath/VBP
-waged/UNKNOWN
+waged/VBN
 against/IN
 them/PP
 and/CC
@@ -969,7 +969,7 @@ But/CC
 as/IN
 the/DT
 Lord/NP
-liveth/UNKNOWN
+liveth/VBN
 our/PP$
 armies/NNS
 shall/MD
@@ -1012,7 +1012,7 @@ God/NP
 But/CC
 behold/VBP
 it/PP
-supposeth/UNKNOWN
+supposeth/VBN
 me/PP
 that/IN
 I/PP
@@ -1026,7 +1026,7 @@ in/IN
 vain/JJ
 or/RB
 it/PP
-supposeth/UNKNOWN
+supposeth/VBN
 me/PP
 that/IN
 thou/NN
@@ -1139,7 +1139,7 @@ it/PP
 shall/MD
 be/VB
 blood/NN
-yea/UNKNOWN
+yea/VBN
 life/NN
 for/IN
 life/NN
@@ -1148,7 +1148,7 @@ I/PP
 will/MD
 give/VB
 you/PP
-battle/UNKNOWN
+battle/VBN
 even/RB
 until/IN
 you/PP
@@ -1452,7 +1452,7 @@ great/JJ
 sufferings/NNS
 yea/RB
 even/RB
-hunger/UNKNOWN
+hunger/VBN
 thirst/VBP
 and/CC
 fatigue/VBP
@@ -1592,7 +1592,7 @@ to/TO
 you/PP
 for/IN
 protection/NN
-yea/UNKNOWN
+yea/VBN
 have/VBP
 placed/VBN
 you/PP
@@ -1944,7 +1944,7 @@ the/DT
 wickedness/NN
 which/WDT
 first/NN
-commenced/UNKNOWN
+commenced/VBN
 at/IN
 our/PP$
 head/NN
@@ -2037,7 +2037,7 @@ of/IN
 our/PP$
 freedom/NN
 and/CC
-united/UNKNOWN
+united/VBN
 with/IN
 us/PP
 and/CC
@@ -2106,7 +2106,7 @@ are/VBP
 coming/VBG
 upon/IN
 us/PP
-taking/UNKNOWN
+taking/VBN
 possession/NN
 of/IN
 our/PP$
@@ -2158,7 +2158,7 @@ for/IN
 power/NN
 and/CC
 authority/NN
-yea/UNKNOWN
+yea/VBN
 even/RB
 those/DT
 But/CC
@@ -2316,7 +2316,7 @@ with/IN
 thousands/NNS
 of/IN
 those/DT
-yea/UNKNOWN
+yea/VBN
 and/CC
 tens/NNS
 of/IN
@@ -2346,7 +2346,7 @@ by/IN
 the/DT
 sword/NN
 yea/NN
-wounded/UNKNOWN
+wounded/VBN
 and/CC
 bleeding/VBG
 Do/VBP
@@ -2477,7 +2477,7 @@ until/IN
 we/PP
 have/VBP
 first/NN
-cleansed/UNKNOWN
+cleansed/VBN
 our/PP$
 inward/JJ
 vessel/NN
@@ -2499,7 +2499,7 @@ and/CC
 come/VBN
 out/RP
 and/CC
-show/UNKNOWN
+show/VBN
 unto/IN
 me/PP
 a/DT
@@ -2516,7 +2516,7 @@ fortify/VBP
 our/PP$
 armies/NNS
 and/CC
-grant/UNKNOWN
+grant/VBN
 unto/IN
 them/PP
 food/NN
@@ -2592,7 +2592,7 @@ a/DT
 desire/NN
 for/IN
 freedom/NN
-yea/UNKNOWN
+yea/VBN
 if/IN
 there/EX
 be/VB
@@ -2601,7 +2601,7 @@ a/DT
 spark/NN
 of/IN
 freedom/NN
-remaining/UNKNOWN
+remaining/VBN
 behold/VBP
 I/PP
 will/MD
@@ -2986,7 +2986,7 @@ by/IN
 the/DT
 sword/NN
 Now/RB
-see/UNKNOWN
+see/VBN
 that/IN
 ye/DT
 fulfil/VBP

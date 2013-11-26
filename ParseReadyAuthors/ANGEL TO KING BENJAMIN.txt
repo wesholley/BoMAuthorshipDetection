@@ -33,7 +33,7 @@ thy/JJ
 prayers/NNS
 and/CC
 hath/VBP
-judged/UNKNOWN
+judged/VBN
 of/IN
 thy/JJ
 righteousness/NN
@@ -82,7 +82,7 @@ the/DT
 Lord/NP
 Omnipotent/NP
 who/WP
-reigneth/UNKNOWN
+reigneth/VBN
 who/WP
 was/VBD
 and/CC
@@ -117,7 +117,7 @@ go/VB
 forth/RB
 amongst/IN
 men/NNS
-working/UNKNOWN
+working/VBN
 mighty/JJ
 miracles/NNS
 such/JJ
@@ -309,7 +309,7 @@ dead/NN
 and/RB
 behold/VBP
 he/PP
-standeth/UNKNOWN
+standeth/VBN
 to/TO
 judge/VB
 the/DT
@@ -338,7 +338,7 @@ and/CC
 also/RB
 his/PP$
 blood/NN
-atoneth/UNKNOWN
+atoneth/VBN
 for/IN
 the/DT
 sins/NNS
@@ -374,10 +374,10 @@ wo/UH
 unto/IN
 him/PP
 who/WP
-knoweth/UNKNOWN
+knoweth/VBN
 that/IN
 he/PP
-rebelleth/UNKNOWN
+rebelleth/VBN
 against/IN
 God/NP
 For/IN
@@ -519,7 +519,7 @@ the/DT
 law/NN
 of/IN
 Moses/NP
-availeth/UNKNOWN
+availeth/VBN
 nothing/NN
 except/IN
 it/PP
@@ -570,7 +570,7 @@ the/DT
 blood/NN
 of/IN
 Christ/NP
-atoneth/UNKNOWN
+atoneth/VBN
 for/IN
 their/PP$
 sins/NNS
@@ -617,7 +617,7 @@ Omnipotent/NP
 For/IN
 behold/VBP
 he/PP
-judgeth/UNKNOWN
+judgeth/VBN
 and/CC
 his/PP$
 judgment/NN
@@ -626,10 +626,10 @@ just/RB
 and/RB
 the/DT
 infant/JJ
-perisheth/UNKNOWN
+perisheth/VBN
 not/RB
 that/IN
-dieth/UNKNOWN
+dieth/VBN
 in/IN
 his/PP$
 infancy/NN
@@ -706,13 +706,13 @@ the/DT
 Holy/NP
 Spirit/NP
 and/CC
-putteth/UNKNOWN
+putteth/VBN
 off/IN
 the/DT
 natural/JJ
 man/NN
 and/CC
-becometh/UNKNOWN
+becometh/VBN
 a/DT
 saint/NN
 through/IN
@@ -723,14 +723,14 @@ Christ/NP
 the/DT
 Lord/NP
 and/CC
-becometh/UNKNOWN
+becometh/VBN
 as/IN
 a/DT
 child/NN
 submissive/JJ
 meek/JJ
 humble/VBP
-patient/UNKNOWN
+patient/VBN
 full/JJ
 of/IN
 love/NN
@@ -743,8 +743,8 @@ things/NNS
 which/WDT
 the/DT
 Lord/NP
-seeth/UNKNOWN
-fit/UNKNOWN
+seeth/VBN
+fit/VBN
 to/TO
 inflict/VB
 upon/IN
@@ -886,4 +886,4 @@ the/DT
 Lord/NP
 commanded/VBD
 me/PP
-Amen/UNKNOWN
+Amen/VBN

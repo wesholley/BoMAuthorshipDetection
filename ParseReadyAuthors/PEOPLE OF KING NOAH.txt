@@ -23,8 +23,8 @@ them/PP
 And/RB
 he/PP
 also/RB
-prophesieth/UNKNOWN
-evil/UNKNOWN
+prophesieth/VBN
+evil/VBN
 concerning/IN
 thy/JJ
 life/NN
@@ -95,7 +95,7 @@ ripe/JJ
 if/IN
 the/DT
 wind/NN
-bloweth/UNKNOWN
+bloweth/VBN
 it/PP
 is/VBZ
 driven/VBN
@@ -108,7 +108,7 @@ the/DT
 land/NN
 And/RB
 he/PP
-pretendeth/UNKNOWN
+pretendeth/VBN
 the/DT
 Lord/NP
 hath/VBP
@@ -171,7 +171,7 @@ we/PP
 are/VBP
 guiltless/JJ
 and/CC
-thou/UNKNOWN
+thou/VBN
 O/NP
 king/NN
 hast/VBP
@@ -212,7 +212,7 @@ yea/RB
 and/CC
 thou/NN
 hast/VBP
-prospered/UNKNOWN
+prospered/VBN
 in/IN
 the/DT
 land/NN
@@ -238,6 +238,6 @@ do/VBP
 with/IN
 him/PP
 as/IN
-seemeth/UNKNOWN
+seemeth/VBN
 thee/PP
-good/UNKNOWN
+good/VBN

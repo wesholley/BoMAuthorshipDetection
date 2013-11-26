@@ -5,7 +5,7 @@ stand/VBP
 forth/RB
 for/IN
 why/WRB
-persecutest/UNKNOWN
+persecutest/VBN
 thou/NN
 the/DT
 church/NN

@@ -80,7 +80,7 @@ call/VB
 so/RB
 And/RB
 it/PP
-seemeth/UNKNOWN
+seemeth/VBN
 a/DT
 pity/NN
 unto/IN
@@ -156,7 +156,7 @@ field/NN
 of/IN
 battle/NN
 and/CC
-knowing/UNKNOWN
+knowing/VBN
 of/IN
 their/PP$
 everlasting/JJ

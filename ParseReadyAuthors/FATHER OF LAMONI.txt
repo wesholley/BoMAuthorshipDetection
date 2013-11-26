@@ -24,8 +24,8 @@ my/PP$
 people/NNS
 Whither/RBR
 art/NN
-thou/UNKNOWN
-going/UNKNOWN
+thou/VBN
+going/VBN
 with/IN
 this/DT
 Nephite/NP
@@ -502,11 +502,11 @@ if/IN
 thou/NN
 art/NN
 God/NP
-wilt/UNKNOWN
-thou/UNKNOWN
-make/UNKNOWN
+wilt/VBN
+thou/VBN
+make/VBN
 thyself/PP
-known/UNKNOWN
+known/VBN
 unto/IN
 me/PP
 and/CC

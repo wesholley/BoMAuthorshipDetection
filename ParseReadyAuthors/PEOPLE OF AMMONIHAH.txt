@@ -134,7 +134,7 @@ Who/WP
 is/VBZ
 God/NP
 that/IN
-sendeth/UNKNOWN
+sendeth/VBN
 no/RB
 more/RB
 authority/NN

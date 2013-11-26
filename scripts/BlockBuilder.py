@@ -1,5 +1,3 @@
-# Wes
-
 import os
 import re
 
@@ -41,27 +39,80 @@ def getBlocks(file, blocks_directory, filename):
         
         # update offset and curblock 
         offset = offset + 200
-        print curblock
         print "\t Written to:", file_directory
         curblock = ""
-    
-    
-""" load the files """
-INPUT_PATH = "/home/wes/Documents/bom/bom/200WordAuthors/"
-OUTPUT_PATH = "/home/wes/Documents/bom/bom/200WordBlocks/"
-dir_contents = os.listdir(INPUT_PATH)   # this folder CANNOT HAVE SUB-FOLDERS or .read() will break
- 
-# Break each author's text into blocks of 200 words
-for x in range(0, len(dir_contents)):
-    #open the file
-    file = dir_contents[x] 
-    file_path = INPUT_PATH + file
-    output_file = OUTPUT_PATH + file
-     
-#     print "output", output_file
-    file = open(file_path, 'r')
-    
-    block_output_path = OUTPUT_PATH + dir_contents[x].strip('.txt')
-    temp = getBlocks(file, block_output_path, dir_contents[x].strip('.txt.'))
 
-print "\n\nDone!"     
+############################################################
+# Builds blocks based upon files of tagged output.  One line
+# represents one word
+############################################################    
+def getBlocksByLines(file_path, blocks_directory, filename):
+    # create ouput directory for the blocks for each author
+    print "==========\n BLOCKS FOR:", filename, "\n=========="
+        
+    # get line count
+    wordCount = 0
+    with open(file_path, 'r') as file:
+        for line in file:
+            wordCount = wordCount + 1
+    
+    # get number of blocks needed
+    numBlocks = wordCount/200
+    print "wordcount: ", wordCount, "Numblocks", numBlocks
+    
+    # create blocks of 200 words and write to file
+    blocksMade = 0
+    blockLineCount = 0
+    curBlock = ""
+    
+    with open(file_path, 'r') as file:
+        for line in file:
+#             print "Line:", line, "BlockLineCount:", blockLineCount, "blocksMade:", blocksMade 
+#             print "Curblock:", len(curBlock.split('\n'))
+            if (blocksMade == numBlocks):   # already made as many blocks as we need
+                break
+            if (blockLineCount == 199):     # end of the current block (200 words)
+                blockLineCount = 0
+                blocksMade = blocksMade + 1
+                saveBlockToFile(blocks_directory, filename, blocksMade, curBlock)
+                curBlock = ""
+            else:                           # keep building curBlock
+                curBlock = curBlock + line
+                blockLineCount = blockLineCount + 1
+        print "\n"
+
+            
+############################################################
+# Saves a block to file
+############################################################
+def saveBlockToFile(blocks_directory, filename, blockNumber, curBlock):
+    # write block to a file in author-specific folder (blocks_directory)
+#     if not os.path.exists(blocks_directory):
+#         os.makedirs(blocks_directory)
+    block_destination = blocks_directory + "/" + filename + "_block_" + str(blockNumber) + ".txt" 
+    block_file = open(block_destination, 'w+')
+    block_file.write(curBlock)
+    block_file.close()
+        
+ 
+    
+############################################################
+# Main
+############################################################
+if __name__ == '__main__':
+    """ load the files """
+    INPUT_PATH = "../ParseReadyAuthors/"
+    OUTPUT_PATH = "../TestDirectory/"
+    dir_contents = os.listdir(INPUT_PATH)   # this folder CANNOT HAVE SUB-FOLDERS or .read() will break
+     
+    # Break each author's text into blocks of 200 words
+    for x in range(0, len(dir_contents)):
+        #open the file
+        file = dir_contents[x] 
+        print "file:" + file
+        file_path = INPUT_PATH + file
+        output_file = OUTPUT_PATH + file
+
+        temp = getBlocksByLines(file_path, OUTPUT_PATH, dir_contents[x].strip('.txt'))
+    
+    print "\n\nDone!"     

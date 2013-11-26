@@ -44,7 +44,7 @@ of/IN
 thy/JJ
 faith/NN
 for/IN
-thou/UNKNOWN
+thou/VBN
 hast/VBP
 sought/VBD
 me/PP
@@ -54,7 +54,7 @@ lowliness/NN
 of/IN
 heart/NN
 And/RB
-inasmuch/UNKNOWN
+inasmuch/VBN
 as/IN
 ye/DT
 shall/MD
@@ -94,7 +94,7 @@ all/DT
 other/JJ
 lands/NNS
 And/RB
-inasmuch/UNKNOWN
+inasmuch/VBN
 as/IN
 thy/JJ
 brethren/NN
@@ -114,7 +114,7 @@ of/IN
 the/DT
 Lord/NP
 And/RB
-inasmuch/UNKNOWN
+inasmuch/VBN
 as/IN
 thou/NN
 shalt/VBP
@@ -337,7 +337,7 @@ keep/VB
 my/PP$
 commandments/NNS
 wherefore/RB
-inasmuch/UNKNOWN
+inasmuch/VBN
 as/IN
 ye/DT
 shall/MD
@@ -403,10 +403,10 @@ the/DT
 land/NN
 of/IN
 Jerusalem/NP
-Stretch/UNKNOWN
+Stretch/VBN
 forth/RB
 thine/JJ
-hand/UNKNOWN
+hand/VBN
 again/RB
 unto/IN
 thy/JJ
@@ -602,8 +602,8 @@ before/IN
 the/DT
 day/NN
 when/WRB
-thou/UNKNOWN
-heardest/UNKNOWN
+thou/VBN
+heardest/VBN
 them/PP
 not/RB
 they/PP
@@ -697,12 +697,12 @@ of/IN
 affliction/NN
 For/IN
 mine/PP
-own/UNKNOWN
+own/VBN
 sake/NN
-yea/UNKNOWN
+yea/VBN
 for/IN
 mine/PP
-own/UNKNOWN
+own/VBN
 sake/NN
 will/MD
 I/PP
@@ -751,7 +751,7 @@ also/RB
 the/DT
 last/NN
 Mine/PP
-hand/UNKNOWN
+hand/VBN
 hath/VBP
 also/RB
 laid/JJ
@@ -835,12 +835,12 @@ Lord/NP
 thy/JJ
 God/NP
 who/WP
-teacheth/UNKNOWN
+teacheth/VBN
 thee/PP
 to/TO
 profit/VB
 who/WP
-leadeth/UNKNOWN
+leadeth/VBN
 thee/PP
 by/IN
 the/DT
@@ -855,7 +855,7 @@ O/NN
 that/WDT
 thou/NN
 hadst/VB
-hearkened/UNKNOWN
+hearkened/VBN
 to/TO
 my/PP$
 commandments/NNS
@@ -889,7 +889,7 @@ offspring/NN
 of/IN
 thy/JJ
 bowels/NNS
-like/UNKNOWN
+like/VBN
 the/DT
 gravel/NN
 thereof/RB
@@ -1020,7 +1020,7 @@ will/MD
 preserve/VB
 thee/PP
 and/CC
-give/UNKNOWN
+give/VBN
 thee/PP
 my/PP$
 servant/NN
@@ -1079,7 +1079,7 @@ not/RB
 hunger/VB
 nor/CC
 thirst/VB
-neither/UNKNOWN
+neither/VBN
 shall/MD
 the/DT
 heat/NN
@@ -1277,7 +1277,7 @@ thou/NN
 shalt/VBP
 have/VBP
 after/IN
-thou/UNKNOWN
+thou/VBN
 hast/VBP
 lost/VBP
 the/DT
@@ -1295,8 +1295,8 @@ too/RB
 strait/JJ
 for/IN
 me/PP
-give/UNKNOWN
-place/UNKNOWN
+give/VBN
+place/VBN
 to/TO
 me/PP
 that/WDT
@@ -1334,7 +1334,7 @@ fro/RB
 And/RB
 who/WP
 hath/VBP
-brought/UNKNOWN
+brought/VBN
 up/RP
 these/DT
 Behold/VBP
@@ -1475,7 +1475,7 @@ contend/VB
 with/IN
 him/PP
 that/IN
-contendeth/UNKNOWN
+contendeth/VBN
 with/IN
 thee/PP
 and/CC
@@ -1542,7 +1542,7 @@ in/IN
 the/DT
 land/NN
 but/CC
-inasmuch/UNKNOWN
+inasmuch/VBN
 as/IN
 ye/DT
 will/MD
@@ -1646,7 +1646,7 @@ do/VB
 none/NN
 other/JJ
 work/NN
-save/UNKNOWN
+save/VBN
 the/DT
 work/NN
 which/WDT
@@ -1662,7 +1662,7 @@ him/PP
 great/JJ
 in/IN
 mine/PP
-eyes/UNKNOWN
+eyes/VBN
 for/IN
 he/PP
 shall/MD
@@ -1674,7 +1674,7 @@ he/PP
 shall/MD
 be/VB
 great/JJ
-like/UNKNOWN
+like/VBN
 unto/IN
 Moses/NP
 whom/WP
@@ -1932,7 +1932,7 @@ will/MD
 not/RB
 make/VB
 him/PP
-mighty/UNKNOWN
+mighty/VBN
 in/IN
 speaking/NN
 But/CC
@@ -1948,8 +1948,8 @@ the/DT
 finger/NN
 of/IN
 mine/PP
-own/UNKNOWN
-hand/UNKNOWN
+own/VBN
+hand/VBN
 and/RB
 I/PP
 will/MD
@@ -2161,7 +2161,7 @@ in/IN
 the/DT
 land/NN
 and/RB
-inasmuch/UNKNOWN
+inasmuch/VBN
 as/IN
 ye/DT
 will/MD
@@ -2208,7 +2208,7 @@ loathsome/JJ
 unto/IN
 thy/JJ
 people/NNS
-save/UNKNOWN
+save/VBN
 they/PP
 shall/MD
 repent/VB
@@ -2216,7 +2216,7 @@ of/IN
 their/PP$
 iniquities/NNS
 And/RB
-cursed/UNKNOWN
+cursed/VBN
 shall/MD
 be/VB
 the/DT
@@ -2224,7 +2224,7 @@ seed/NN
 of/IN
 him/PP
 that/IN
-mixeth/UNKNOWN
+mixeth/VBN
 with/IN
 their/PP$
 seed/NN
@@ -2255,7 +2255,7 @@ remembrance/NN
 of/IN
 me/PP
 and/RB
-inasmuch/UNKNOWN
+inasmuch/VBN
 as/IN
 they/PP
 will/MD
@@ -2274,7 +2274,7 @@ them/PP
 even/RB
 unto/IN
 destruction/NN
-Make/UNKNOWN
+Make/VBN
 other/JJ
 plates/NNS
 and/RB
@@ -2419,7 +2419,7 @@ contend/VB
 with/IN
 them/PP
 that/IN
-contendeth/UNKNOWN
+contendeth/VBN
 with/IN
 thee/PP
 And/RB
@@ -2518,7 +2518,7 @@ your/PP$
 iniquities/NNS
 have/VBP
 ye/DT
-sold/UNKNOWN
+sold/VBN
 yourselves/PP
 and/CC
 for/IN
@@ -2731,7 +2731,7 @@ to/TO
 the/DT
 heavens/NNS
 and/CC
-look/UNKNOWN
+look/VBN
 upon/IN
 the/DT
 earth/NN
@@ -2742,7 +2742,7 @@ heavens/NNS
 shall/MD
 vanish/VB
 away/RB
-like/UNKNOWN
+like/VBN
 smoke/VBP
 and/CC
 the/DT
@@ -2750,7 +2750,7 @@ earth/NN
 shall/MD
 wax/VB
 old/NN
-like/UNKNOWN
+like/VBN
 a/DT
 garment/NN
 and/RB
@@ -2761,7 +2761,7 @@ therein/RB
 shall/MD
 die/VB
 in/IN
-like/UNKNOWN
+like/VBN
 manner/NN
 But/CC
 my/PP$
@@ -2800,7 +2800,7 @@ the/DT
 reproach/NN
 of/IN
 men/NNS
-neither/UNKNOWN
+neither/VBN
 be/VB
 ye/DT
 afraid/JJ
@@ -2814,7 +2814,7 @@ shall/MD
 eat/VB
 them/PP
 up/RB
-like/UNKNOWN
+like/VBN
 a/DT
 garment/NN
 and/CC
@@ -2823,7 +2823,7 @@ worm/NN
 shall/MD
 eat/VB
 them/PP
-like/UNKNOWN
+like/VBN
 wool/NN
 But/CC
 my/PP$
@@ -2846,7 +2846,7 @@ I/PP
 am/VBP
 he/PP
 that/IN
-comforteth/UNKNOWN
+comforteth/VBN
 you/PP
 Behold/VBP
 who/WP
@@ -2876,7 +2876,7 @@ like/IN
 unto/IN
 grass/NN
 And/RB
-forgettest/UNKNOWN
+forgettest/VBN
 the/DT
 Lord/NP
 thy/JJ
@@ -2923,9 +2923,9 @@ of/IN
 the/DT
 oppressor/NN
 The/DT
-captive/UNKNOWN
-exile/UNKNOWN
-hasteneth/UNKNOWN
+captive/VBN
+exile/VBN
+hasteneth/VBN
 that/IN
 he/PP
 may/MD
@@ -2981,7 +2981,7 @@ the/DT
 shadow/NN
 of/IN
 mine/PP
-hand/UNKNOWN
+hand/VBN
 that/IN
 I/PP
 may/MD
@@ -3027,7 +3027,7 @@ thou/NP
 shalt/VBP
 no/RB
 more/RB
-drink/UNKNOWN
+drink/VBN
 it/PP
 again/RB
 But/CC
@@ -3118,7 +3118,7 @@ in/IN
 your/PP$
 houses/NNS
 What/WP
-mean/UNKNOWN
+mean/VBN
 ye/DT
 Ye/DT
 beat/NN
@@ -3127,7 +3127,7 @@ people/NNS
 to/TO
 pieces/NNS
 and/CC
-grind/UNKNOWN
+grind/VBN
 the/DT
 faces/NNS
 of/IN
@@ -3300,7 +3300,7 @@ desolate/JJ
 and/CC
 great/JJ
 and/CC
-fair/UNKNOWN
+fair/VBN
 cities/NNS
 without/IN
 inhabitant/NN
@@ -3449,7 +3449,7 @@ be/VB
 quiet/JJ
 fear/VBP
 not/RB
-neither/UNKNOWN
+neither/VBN
 be/VB
 for/IN
 the/DT
@@ -3492,7 +3492,7 @@ It/PP
 shall/MD
 not/RB
 stand/VB
-neither/UNKNOWN
+neither/VBN
 shall/MD
 it/PP
 come/VB
@@ -3565,7 +3565,7 @@ thy/JJ
 God/NP
 ask/VBP
 it/PP
-either/UNKNOWN
+either/VBN
 in/IN
 the/DT
 depths/NNS
@@ -3574,7 +3574,7 @@ in/IN
 the/DT
 heights/NNS
 above/IN
-Take/UNKNOWN
+Take/VBN
 thee/PP
 a/DT
 great/JJ
@@ -3589,7 +3589,7 @@ man/NN
 's/POS
 pen/NN
 concerning/IN
-Call/UNKNOWN
+Call/VBN
 his/PP$
 name/NN
 For/IN
@@ -3630,7 +3630,7 @@ Forasmuch/NP
 as/IN
 this/DT
 people/NNS
-refuseth/UNKNOWN
+refuseth/VBN
 the/DT
 waters/NNS
 of/IN
@@ -3651,7 +3651,7 @@ therefore/IN
 behold/VBP
 the/DT
 Lord/NP
-bringeth/UNKNOWN
+bringeth/VBN
 up/IN
 upon/IN
 them/PP
@@ -3736,8 +3736,8 @@ shall/MD
 say/VB
 A/DT
 confederacy/NN
-neither/UNKNOWN
-fear/UNKNOWN
+neither/VBN
+fear/VBN
 ye/DT
 their/PP$
 fear/NN
@@ -3809,7 +3809,7 @@ which/WDT
 shall/MD
 come/VB
 from/IN
-far/UNKNOWN
+far/VBN
 to/TO
 whom/WP
 will/MD
@@ -3846,7 +3846,7 @@ the/DT
 rod/NN
 of/IN
 mine/PP
-anger/UNKNOWN
+anger/VBN
 and/CC
 the/DT
 staff/NN
@@ -3891,7 +3891,7 @@ to/TO
 tread/VB
 them/PP
 down/RB
-like/UNKNOWN
+like/VBN
 the/DT
 mire/NN
 of/IN
@@ -3899,10 +3899,10 @@ the/DT
 streets/NNS
 Howbeit/RB
 he/PP
-meaneth/UNKNOWN
+meaneth/VBN
 not/RB
 so/RB
-neither/UNKNOWN
+neither/VBN
 doth/VBP
 his/PP$
 heart/NN
@@ -4011,7 +4011,7 @@ put/VBN
 down/RP
 the/DT
 inhabitants/NNS
-like/UNKNOWN
+like/VBN
 a/DT
 valiant/JJ
 man/NN
@@ -4064,7 +4064,7 @@ itself/PP
 against/IN
 him/PP
 that/IN
-heweth/UNKNOWN
+heweth/VBN
 therewith/RB
 Shall/MD
 the/DT
@@ -4074,7 +4074,7 @@ itself/PP
 against/IN
 him/PP
 that/IN
-shaketh/UNKNOWN
+shaketh/VBN
 it/PP
 As/IN
 if/IN
@@ -4108,7 +4108,7 @@ O/NN
 my/PP$
 people/NNS
 that/IN
-dwellest/UNKNOWN
+dwellest/VBN
 in/IN
 Zion/NP
 be/VB
@@ -4150,7 +4150,7 @@ shall/MD
 cease/VB
 and/CC
 mine/PP
-anger/UNKNOWN
+anger/VBN
 in/IN
 their/PP$
 destruction/NN
@@ -4181,7 +4181,7 @@ mighty/JJ
 ones/NNS
 for/IN
 mine/PP
-anger/UNKNOWN
+anger/VBN
 is/VBZ
 not/RB
 upon/IN
@@ -4232,8 +4232,8 @@ man/NN
 more/RBR
 precious/JJ
 than/IN
-fine/UNKNOWN
-gold/UNKNOWN
+fine/VBN
+gold/VBN
 even/RB
 a/DT
 man/NN
@@ -4288,7 +4288,7 @@ not/RB
 regard/VB
 silver/NN
 and/CC
-gold/UNKNOWN
+gold/VBN
 nor/CC
 shall/MD
 they/PP
@@ -4442,7 +4442,7 @@ their/PP$
 shoulders/NNS
 Rejoice/VBP
 not/RB
-thou/UNKNOWN
+thou/VBN
 whole/JJ
 Palestina/NP
 because/IN
@@ -4705,8 +4705,8 @@ ends/NNS
 of/IN
 the/DT
 earth/NN
-buy/UNKNOWN
-milk/UNKNOWN
+buy/VBN
+milk/VBN
 and/CC
 honey/VBP
 without/IN
@@ -4767,7 +4767,7 @@ shall/MD
 give/VB
 unto/IN
 thee/PP
-Touch/UNKNOWN
+Touch/VBN
 not/RB
 the/DT
 things/NNS
@@ -4782,7 +4782,7 @@ them/PP
 forth/RB
 in/IN
 mine/PP
-own/UNKNOWN
+own/VBN
 due/JJ
 time/NN
 for/IN
@@ -4834,7 +4834,7 @@ the/DT
 book/NN
 again/RB
 and/CC
-hide/UNKNOWN
+hide/VBN
 it/PP
 up/RB
 unto/IN
@@ -4857,7 +4857,7 @@ see/VB
 fit/NN
 in/IN
 mine/PP
-own/UNKNOWN
+own/VBN
 wisdom/NN
 to/TO
 reveal/VB
@@ -4976,7 +4976,7 @@ of/IN
 their/PP$
 wise/NN
 and/CC
-learned/UNKNOWN
+learned/VBN
 shall/MD
 perish/VB
 and/CC
@@ -5013,11 +5013,11 @@ and/RB
 they/PP
 say/VBP
 Who/WP
-seeth/UNKNOWN
+seeth/VBN
 us/PP
 and/CC
 who/WP
-knoweth/UNKNOWN
+knoweth/VBN
 us/PP
 And/RB
 they/PP
@@ -5123,7 +5123,7 @@ not/RB
 now/RB
 be/VB
 ashamed/JJ
-neither/UNKNOWN
+neither/VBN
 shall/MD
 his/PP$
 face/VB
@@ -5133,7 +5133,7 @@ pale/NN
 But/CC
 when/WRB
 he/PP
-seeth/UNKNOWN
+seeth/VBN
 his/PP$
 children/NNS
 the/DT
@@ -5235,7 +5235,7 @@ there/RB
 a/DT
 little/NN
 and/RB
-blessed/UNKNOWN
+blessed/VBN
 are/VBP
 those/DT
 who/WP
@@ -5259,7 +5259,7 @@ for/IN
 unto/IN
 him/PP
 that/IN
-receiveth/UNKNOWN
+receiveth/VBN
 I/PP
 will/MD
 give/VB
@@ -5284,17 +5284,17 @@ that/IN
 which/WDT
 they/PP
 have/VBP
-Cursed/UNKNOWN
+Cursed/VBN
 is/VBZ
 he/PP
 that/IN
-putteth/UNKNOWN
+putteth/VBN
 his/PP$
 trust/NN
 in/IN
 man/NN
 or/CC
-maketh/UNKNOWN
+maketh/VBN
 flesh/NN
 his/PP$
 arm/NN
@@ -5306,7 +5306,7 @@ the/DT
 precepts/NNS
 of/IN
 men/NNS
-save/UNKNOWN
+save/VBN
 their/PP$
 precepts/NNS
 shall/MD
@@ -5359,7 +5359,7 @@ unto/IN
 me/PP
 for/IN
 mine/PP
-arm/UNKNOWN
+arm/VBN
 is/VBZ
 lengthened/VBN
 out/IN
@@ -5578,7 +5578,7 @@ diligence/NN
 unto/IN
 me/PP
 in/IN
-bringing/UNKNOWN
+bringing/VBN
 forth/RB
 salvation/NN
 unto/IN
@@ -5596,7 +5596,7 @@ mine/PP$
 ancient/JJ
 covenant/NN
 people/NNS
-Nay/UNKNOWN
+Nay/VBN
 but/CC
 ye/DT
 have/VBP
@@ -5654,7 +5654,7 @@ more/RB
 Bible/NP
 Have/VBP
 ye/DT
-obtained/UNKNOWN
+obtained/VBN
 a/DT
 Bible/NP
 save/NN
@@ -5732,8 +5732,8 @@ nations/NNS
 of/IN
 the/DT
 earth/NN
-Wherefore/UNKNOWN
-murmur/UNKNOWN
+Wherefore/VBN
+murmur/VBN
 ye/DT
 because/IN
 that/IN
@@ -5829,7 +5829,7 @@ words/NNS
 according/VBG
 to/TO
 mine/PP
-own/UNKNOWN
+own/VBN
 pleasure/NN
 And/RB
 because/IN
@@ -5855,7 +5855,7 @@ is/VBZ
 not/RB
 yet/RB
 finished/VBN
-neither/UNKNOWN
+neither/VBN
 shall/MD
 it/PP
 be/VB
@@ -5864,7 +5864,7 @@ the/DT
 end/NN
 of/IN
 man/NN
-neither/UNKNOWN
+neither/VBN
 from/IN
 that/IN
 time/VBP
@@ -5888,8 +5888,8 @@ contains/VBZ
 all/PDT
 my/PP$
 words/NNS
-neither/UNKNOWN
-need/UNKNOWN
+neither/VBN
+need/VBN
 ye/DT
 suppose/VBP
 that/IN
@@ -6252,7 +6252,7 @@ the/DT
 power/NN
 of/IN
 mine/PP
-arm/UNKNOWN
+arm/VBN
 that/IN
 I/PP
 might/MD
@@ -6335,7 +6335,7 @@ keep/VB
 my/PP$
 commandments/NNS
 or/RB
-cursed/UNKNOWN
+cursed/VBN
 be/VB
 the/DT
 land/NN
@@ -6387,7 +6387,7 @@ the/DT
 land/NN
 of/IN
 Jerusalem/NP
-yea/UNKNOWN
+yea/VBN
 and/CC
 in/IN
 all/PDT
@@ -6454,7 +6454,7 @@ because/IN
 of/IN
 their/PP$
 tenderness/NN
-save/UNKNOWN
+save/VBN
 I/PP
 shall/MD
 visit/VB
@@ -6546,7 +6546,7 @@ he/PP
 pruned/VBD
 it/PP
 and/CC
-digged/UNKNOWN
+digged/VBN
 about/IN
 it/PP
 and/CC
@@ -6573,7 +6573,7 @@ forth/RB
 somewhat/RB
 a/DT
 little/JJ
-young/UNKNOWN
+young/VBN
 and/CC
 tender/NN
 branches/NNS
@@ -6660,9 +6660,9 @@ be/VB
 digged/VBN
 about/IN
 and/CC
-pruned/UNKNOWN
+pruned/VBN
 and/CC
-nourished/UNKNOWN
+nourished/VBN
 saying/VBG
 unto/IN
 his/PP$
@@ -7305,7 +7305,7 @@ had/VBD
 become/VBN
 wild/JJ
 and/CC
-grafted/UNKNOWN
+grafted/VBN
 in/IN
 unto/IN
 the/DT
@@ -7473,7 +7473,7 @@ and/CC
 the/DT
 top/NN
 thereof/RB
-equal/UNKNOWN
+equal/VBN
 according/VBG
 to/TO
 the/DT
@@ -7638,7 +7638,7 @@ faith/NN
 hath/VBP
 made/JJ
 thee/PP
-whole/UNKNOWN
+whole/VBN
 I/PP
 will/MD
 visit/VB
@@ -7924,7 +7924,7 @@ on/IN
 them/PP
 no/RB
 more/RB
-forever/UNKNOWN
+forever/VBN
 And/RB
 their/PP$
 torment/NN
@@ -7943,7 +7943,7 @@ unquenchable/JJ
 and/CC
 whose/WP$
 smoke/NN
-ascendeth/UNKNOWN
+ascendeth/VBN
 up/IN
 forever/NN
 and/CC
@@ -8016,7 +8016,7 @@ the/DT
 east/JJ
 wind/NN
 which/WDT
-bringeth/UNKNOWN
+bringeth/VBN
 immediate/JJ
 destruction/NN
 Go/VBP
@@ -8208,7 +8208,7 @@ sackcloth/NN
 and/CC
 ashes/NNS
 and/CC
-cry/UNKNOWN
+cry/VBN
 mightily/RB
 to/TO
 the/DT
@@ -8221,7 +8221,7 @@ not/RB
 hear/VB
 their/PP$
 prayers/NNS
-neither/UNKNOWN
+neither/VBN
 will/MD
 I/PP
 deliver/VB
@@ -8282,7 +8282,7 @@ be/VB
 unto/IN
 this/DT
 generation/NN
-Stretch/UNKNOWN
+Stretch/VBN
 forth/RB
 thy/JJ
 hand/NN
@@ -8432,7 +8432,7 @@ shall/MD
 be/VB
 driven/VBN
 before/IN
-like/UNKNOWN
+like/VBN
 a/DT
 dumb/JJ
 ass/NN
@@ -8699,7 +8699,7 @@ that/WDT
 love/VBP
 me/PP
 and/CC
-keep/UNKNOWN
+keep/VBN
 my/PP$
 commandments/NNS
 Thou/NP
@@ -8724,7 +8724,7 @@ hold/VB
 him/PP
 guiltless/JJ
 that/IN
-taketh/UNKNOWN
+taketh/VBN
 his/PP$
 name/NN
 in/IN
@@ -8740,8 +8740,8 @@ holy/NN
 Six/CD
 days/NNS
 shalt/VBP
-thou/UNKNOWN
-labor/UNKNOWN
+thou/VBN
+labor/VBN
 and/CC
 do/VBP
 all/DT
@@ -8813,7 +8813,7 @@ day/NN
 and/CC
 hallowed/VBD
 it/PP
-Honor/UNKNOWN
+Honor/VBN
 thy/JJ
 father/NN
 and/CC
@@ -8833,7 +8833,7 @@ the/DT
 Lord/NP
 thy/JJ
 God/NP
-giveth/UNKNOWN
+giveth/VBN
 thee/PP
 Thou/NP
 shalt/VBP
@@ -8852,8 +8852,8 @@ Thou/NP
 shalt/VBP
 not/RB
 bear/NN
-false/UNKNOWN
-witness/UNKNOWN
+false/VBN
+witness/VBN
 against/IN
 thy/JJ
 neighbor/NN
@@ -8980,7 +8980,7 @@ as/IN
 witnesses/NNS
 for/IN
 me/PP
-hereafter/UNKNOWN
+hereafter/VBN
 and/CC
 that/IN
 ye/DT
@@ -9223,7 +9223,7 @@ this/DT
 time/NN
 henceforth/RB
 and/CC
-forever/UNKNOWN
+forever/VBN
 except/IN
 they/PP
 repent/VBP
@@ -9249,7 +9249,7 @@ mark/NN
 upon/IN
 him/PP
 that/IN
-mingleth/UNKNOWN
+mingleth/VBN
 his/PP$
 seed/NN
 with/IN
@@ -9269,7 +9269,7 @@ mark/NN
 upon/IN
 him/PP
 that/IN
-fighteth/UNKNOWN
+fighteth/VBN
 against/IN
 thee/PP
 and/CC
@@ -9279,7 +9279,7 @@ I/PP
 say/VBP
 he/PP
 that/IN
-departeth/UNKNOWN
+departeth/VBN
 from/IN
 thee/PP
 shall/MD
@@ -9371,11 +9371,11 @@ at/IN
 hand/NN
 that/IN
 whosoever/PP
-bringeth/UNKNOWN
+bringeth/VBN
 forth/RB
 not/RB
-good/UNKNOWN
-fruit/UNKNOWN
+good/VBN
+fruit/VBN
 or/CC
 whosoever/PP
 doeth/VBP
@@ -9634,7 +9634,7 @@ brethren/NN
 the/DT
 Lamanites/NP
 and/CC
-bear/UNKNOWN
+bear/VBN
 with/IN
 patience/NN
 thine/JJ
@@ -9688,7 +9688,7 @@ of/IN
 this/DT
 land/NN
 and/RB
-blessed/UNKNOWN
+blessed/VBN
 are/VBP
 this/DT
 people/NNS
@@ -9770,7 +9770,7 @@ forth/RB
 of/IN
 darkness/NN
 unto/IN
-light/UNKNOWN
+light/VBN
 all/PDT
 their/PP$
 secret/JJ
@@ -9823,7 +9823,7 @@ of/IN
 the/DT
 first/JJ
 offense/NN
-neither/UNKNOWN
+neither/VBN
 the/DT
 second/JJ
 ye/DT
@@ -9848,7 +9848,7 @@ families/NNS
 even/RB
 unto/IN
 bloodshed/NN
-Cursed/UNKNOWN
+Cursed/VBN
 shall/MD
 be/VB
 the/DT
@@ -9859,7 +9859,7 @@ land/NN
 unto/IN
 every/DT
 nation/NN
-kindred/UNKNOWN
+kindred/VBN
 tongue/VBP
 and/CC
 people/VBP
@@ -9884,7 +9884,7 @@ they/PP
 shall/MD
 be/VB
 blessed/VBN
-inasmuch/UNKNOWN
+inasmuch/VBN
 as/IN
 they/PP
 shall/MD
@@ -9899,7 +9899,7 @@ the/DT
 land/NN
 But/CC
 remember/VBP
-inasmuch/UNKNOWN
+inasmuch/VBN
 as/IN
 they/PP
 will/MD
@@ -10000,7 +10000,7 @@ more/JJR
 than/IN
 the/DT
 other/JJ
-save/UNKNOWN
+save/VBN
 it/PP
 be/VB
 unto/IN
@@ -10177,8 +10177,8 @@ will/MD
 turn/VB
 away/JJ
 mine/PP
-anger/UNKNOWN
-blessed/UNKNOWN
+anger/VBN
+blessed/VBN
 are/VBP
 they/PP
 who/WP
@@ -10193,7 +10193,7 @@ wo/UH
 unto/IN
 him/PP
 that/IN
-repenteth/UNKNOWN
+repenteth/VBN
 not/RB
 Yea/RB
 wo/UH
@@ -10230,7 +10230,7 @@ that/IN
 there/EX
 are/VBP
 many/JJ
-yea/UNKNOWN
+yea/VBN
 even/RB
 the/DT
 more/JJR
@@ -10247,7 +10247,7 @@ hearts/NNS
 against/IN
 me/PP
 But/CC
-blessed/UNKNOWN
+blessed/VBN
 are/VBP
 they/PP
 who/WP
@@ -10407,7 +10407,7 @@ are/VBP
 upon/IN
 the/DT
 land/NN
-yea/UNKNOWN
+yea/VBN
 because/IN
 of/IN
 their/PP$
@@ -10425,7 +10425,7 @@ yea/RB
 our/PP$
 great/JJ
 and/CC
-true/UNKNOWN
+true/VBN
 God/NP
 that/IN
 whoso/PP
@@ -10477,7 +10477,7 @@ treasures/NNS
 unto/IN
 me/PP
 and/RB
-cursed/UNKNOWN
+cursed/VBN
 be/VB
 they/PP
 who/WP
@@ -10490,13 +10490,13 @@ unto/IN
 me/PP
 for/IN
 none/NN
-hideth/UNKNOWN
+hideth/VBN
 up/IN
 their/PP$
 treasures/NNS
 unto/IN
 me/PP
-save/UNKNOWN
+save/VBN
 it/PP
 be/VB
 the/DT
@@ -10504,14 +10504,14 @@ righteous/JJ
 and/RB
 he/PP
 that/IN
-hideth/UNKNOWN
+hideth/VBN
 not/RB
 up/IN
 his/PP$
 treasures/NNS
 unto/IN
 me/PP
-cursed/UNKNOWN
+cursed/VBN
 is/VBZ
 he/PP
 and/CC
@@ -10582,7 +10582,7 @@ them/PP
 up/RB
 unto/IN
 me/PP
-cursed/UNKNOWN
+cursed/VBN
 be/VB
 they/PP
 and/CC
@@ -10851,7 +10851,7 @@ thou/NN
 that/WDT
 didst/VBP
 not/RB
-bear/UNKNOWN
+bear/VBN
 break/VBP
 forth/RB
 into/IN
@@ -10890,7 +10890,7 @@ tent/NN
 and/CC
 let/VBP
 them/PP
-stretch/UNKNOWN
+stretch/VBN
 forth/RB
 the/DT
 curtains/NNS
@@ -10907,7 +10907,7 @@ strengthen/VBP
 thy/JJ
 stakes/NNS
 For/IN
-thou/UNKNOWN
+thou/VBN
 shalt/VBP
 break/NN
 forth/RB
@@ -10937,17 +10937,17 @@ inhabited/VBN
 Fear/VBP
 not/RB
 for/IN
-thou/UNKNOWN
+thou/VBN
 shalt/VBP
 not/RB
 be/VB
 ashamed/JJ
-neither/UNKNOWN
+neither/VBN
 be/VB
 thou/NN
-confounded/UNKNOWN
+confounded/VBN
 for/IN
-thou/UNKNOWN
+thou/VBN
 shalt/VBP
 not/RB
 be/VB
@@ -10955,7 +10955,7 @@ put/VBN
 to/TO
 shame/VB
 for/IN
-thou/UNKNOWN
+thou/VBN
 shalt/VBP
 forget/VBP
 the/DT
@@ -11024,7 +11024,7 @@ a/DT
 woman/NN
 forsaken/VBN
 and/CC
-grieved/UNKNOWN
+grieved/VBN
 in/IN
 spirit/NN
 and/CC
@@ -11130,7 +11130,7 @@ not/RB
 depart/VB
 from/IN
 thee/PP
-neither/UNKNOWN
+neither/VBN
 shall/MD
 the/DT
 covenant/NN
@@ -11147,7 +11147,7 @@ with/IN
 tempest/NN
 and/CC
 not/RB
-comforted/UNKNOWN
+comforted/VBN
 Behold/VBP
 I/PP
 will/MD
@@ -11218,7 +11218,7 @@ for/IN
 thou/NN
 shalt/VBP
 not/RB
-fear/UNKNOWN
+fear/VBN
 and/CC
 from/IN
 terror/NN
@@ -11258,7 +11258,7 @@ created/VBN
 the/DT
 smith/NN
 that/IN
-bloweth/UNKNOWN
+bloweth/VBN
 the/DT
 coals/NNS
 in/IN
@@ -11266,7 +11266,7 @@ the/DT
 fire/NN
 and/CC
 that/IN
-bringeth/UNKNOWN
+bringeth/VBN
 forth/RB
 an/DT
 instrument/NN
@@ -11332,7 +11332,7 @@ me/PP
 and/CC
 be/VB
 ye/DT
-baptized/UNKNOWN
+baptized/VBN
 and/CC
 build/VBP
 up/RP
@@ -11378,7 +11378,7 @@ man/NP
 shall/MD
 not/RB
 smite/VB
-neither/UNKNOWN
+neither/VBN
 shall/MD
 he/PP
 judge/VB
@@ -11398,14 +11398,14 @@ repay/VB
 Go/VBP
 to/TO
 and/CC
-gather/UNKNOWN
+gather/VBN
 together/RB
 thy/JJ
 flocks/NNS
 both/CC
-male/UNKNOWN
+male/VBN
 and/CC
-female/UNKNOWN
+female/VBN
 of/IN
 every/DT
 kind/NN

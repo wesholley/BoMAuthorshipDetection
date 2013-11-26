@@ -95,7 +95,7 @@ among/IN
 you/PP
 And/RB
 who/WP
-knoweth/UNKNOWN
+knoweth/VBN
 but/CC
 what/WP
 my/PP$
@@ -112,8 +112,8 @@ to/TO
 be/VB
 angry/JJ
 and/CC
-draw/UNKNOWN
-away/UNKNOWN
+draw/VBN
+away/VBN
 a/DT
 part/NN
 of/IN
@@ -175,7 +175,7 @@ to/TO
 destroy/VB
 my/PP$
 son/NN
-neither/UNKNOWN
+neither/VBN
 should/MD
 we/PP
 have/VB
@@ -215,7 +215,7 @@ he/PP
 had/VBD
 said/VBN
 and/CC
-claim/UNKNOWN
+claim/VBN
 his/PP$
 right/NN
 to/TO
@@ -366,7 +366,7 @@ laws/NNS
 of/IN
 God/NP
 and/CC
-judge/UNKNOWN
+judge/VBN
 this/DT
 people/NNS
 according/VBG
@@ -538,7 +538,7 @@ cause/NN
 to/TO
 be/VB
 committed/VBN
-yea/UNKNOWN
+yea/VBN
 and/CC
 what/WP
 great/JJ
@@ -694,14 +694,14 @@ in/IN
 iniquity/NN
 and/CC
 he/PP
-keepeth/UNKNOWN
+keepeth/VBN
 his/PP$
 guards/NNS
 about/IN
 him/PP
 and/RB
 he/PP
-teareth/UNKNOWN
+teareth/VBN
 up/IN
 the/DT
 laws/NNS
@@ -716,7 +716,7 @@ before/IN
 him/PP
 and/RB
 he/PP
-trampleth/UNKNOWN
+trampleth/VBN
 under/IN
 his/PP$
 feet/NNS
@@ -726,10 +726,10 @@ of/IN
 God/NP
 And/RB
 he/PP
-enacteth/UNKNOWN
+enacteth/VBN
 laws/NNS
 and/CC
-sendeth/UNKNOWN
+sendeth/VBN
 them/PP
 forth/RB
 among/IN
@@ -752,7 +752,7 @@ obey/VBP
 his/PP$
 laws/NNS
 he/PP
-causeth/UNKNOWN
+causeth/VBN
 to/TO
 be/VB
 destroyed/VBN
@@ -861,7 +861,7 @@ voice/NN
 of/IN
 the/DT
 people/NNS
-desireth/UNKNOWN
+desireth/VBN
 anything/NN
 contrary/NN
 to/TO
@@ -1138,7 +1138,7 @@ his/PP$
 rights/NNS
 and/CC
 privileges/NNS
-alike/UNKNOWN
+alike/VBN
 so/RB
 long/RB
 as/IN
@@ -1154,7 +1154,7 @@ and/CC
 inherit/VB
 the/DT
 land/NN
-yea/UNKNOWN
+yea/VBN
 even/RB
 as/RB
 long/RB
@@ -1163,7 +1163,7 @@ any/DT
 of/IN
 our/PP$
 posterity/NN
-remains/UNKNOWN
+remains/VBN
 upon/IN
 the/DT
 face/NN

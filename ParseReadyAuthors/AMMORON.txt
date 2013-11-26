@@ -24,7 +24,7 @@ his/PP$
 blood/NN
 upon/IN
 you/PP
-yea/UNKNOWN
+yea/VBN
 and/CC
 I/PP
 will/MD
@@ -162,7 +162,7 @@ which/WDT
 shall/MD
 be/VB
 eternal/JJ
-either/UNKNOWN
+either/VBN
 to/TO
 the/DT
 subjecting/JJ
@@ -194,7 +194,7 @@ not/RB
 such/PDT
 a/DT
 being/JJ
-neither/UNKNOWN
+neither/VBN
 do/VBP
 ye/DT
 but/CC

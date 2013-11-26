@@ -88,7 +88,7 @@ thou/NN
 hast/VBP
 made/JJ
 it/PP
-known/UNKNOWN
+known/VBN
 unto/IN
 us/PP
 that/IN
@@ -148,7 +148,7 @@ thee/PP
 that/DT
 thou/NN
 hast/VB
-elected/UNKNOWN
+elected/VBN
 us/PP
 that/IN
 we/PP
@@ -202,7 +202,7 @@ and/CC
 a/DT
 holy/JJ
 people/NNS
-Amen/UNKNOWN
+Amen/VBN
 We/PP
 thank/VBP
 thee/PP

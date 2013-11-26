@@ -17,8 +17,8 @@ how/WRB
 thou/NN
 hast/VBP
 with/IN
-unwearyingness/UNKNOWN
-declared/UNKNOWN
+unwearyingness/VBN
+declared/VBN
 the/DT
 word/NN
 which/WDT
@@ -74,7 +74,7 @@ I/PP
 will/MD
 make/VB
 thee/PP
-mighty/UNKNOWN
+mighty/VBN
 in/IN
 word/NN
 and/CC
@@ -100,7 +100,7 @@ to/TO
 thy/JJ
 word/NN
 for/IN
-thou/UNKNOWN
+thou/VBN
 shalt/VBP
 not/RB
 ask/VBP
@@ -163,7 +163,7 @@ I/PP
 give/VBP
 unto/IN
 you/PP
-power/UNKNOWN
+power/VBN
 that/IN
 whatsoever/JJR
 ye/DT

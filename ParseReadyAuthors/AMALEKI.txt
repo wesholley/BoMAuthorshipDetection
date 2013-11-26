@@ -544,7 +544,7 @@ and/RB
 Benjamin/NP
 his/PP$
 son/NN
-reigneth/UNKNOWN
+reigneth/VBN
 in/IN
 his/PP$
 stead/NN
@@ -684,7 +684,7 @@ nothing/NN
 which/WDT
 is/VBZ
 good/RB
-save/UNKNOWN
+save/VBN
 it/PP
 comes/VBZ
 from/IN
@@ -735,7 +735,7 @@ come/VBN
 unto/IN
 him/PP
 and/CC
-offer/UNKNOWN
+offer/VBN
 your/PP$
 whole/JJ
 souls/NNS
@@ -759,7 +759,7 @@ and/RB
 as/IN
 the/DT
 Lord/NP
-liveth/UNKNOWN
+liveth/VBN
 ye/DT
 will/MD
 be/VB
@@ -820,8 +820,8 @@ man/NN
 and/CC
 a/DT
 stiffnecked/NN
-man/UNKNOWN
-wherefore/UNKNOWN
+man/VBN
+wherefore/VBN
 he/PP
 caused/VBD
 a/DT
@@ -833,7 +833,7 @@ they/PP
 were/VBD
 all/DT
 slain/NN
-save/UNKNOWN
+save/VBN
 fifty/CD
 in/IN
 the/DT

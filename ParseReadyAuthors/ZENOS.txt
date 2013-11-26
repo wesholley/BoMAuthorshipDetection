@@ -134,7 +134,7 @@ God/NP
 of/IN
 Israel/NP
 and/CC
-turn/UNKNOWN
+turn/VBN
 their/PP$
 hearts/NNS
 aside/NN
@@ -197,7 +197,7 @@ that/IN
 they/PP
 no/RB
 more/RB
-turn/UNKNOWN
+turn/VBN
 aside/NN
 their/PP$
 hearts/NNS
@@ -282,7 +282,7 @@ merciful/JJ
 O/NP
 God/NP
 for/IN
-thou/UNKNOWN
+thou/VBN
 hast/VBP
 heard/VBD
 my/PP$
@@ -514,7 +514,7 @@ is/VBZ
 my/PP$
 joy/NN
 for/IN
-thou/UNKNOWN
+thou/VBN
 hast/VBP
 turned/JJ
 thy/JJ
