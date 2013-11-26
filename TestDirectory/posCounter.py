@@ -50,8 +50,13 @@ def process_author_interjection_file(fileName):
 ############################################################
 def process_author_file(fileName):
 
-	author, end = fileName.split('-')
-	block, extension = end.split('.')
+	# author, end = fileName.split('-')
+	# block, extension = end.split('.')
+
+	author, txt_block, end = fileName.split('_')
+	block, extension       = end.split('.')
+
+	print author, block
 
 	#TODO::: Call process_author_interjection_file(author+'-'+block+'-interjection.inter')
 
