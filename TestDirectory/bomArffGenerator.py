@@ -24,17 +24,21 @@ def generate_array_of_Percent_ProperNouns_Vs_Pronouns(data):
 
 	for author in data.keys():
 		for block_number in range(0, len(data[author])):
-			np  = data[author][block_number]['NP'][0] #[0] Get me the count
-			nps = data[author][block_number]['NPS'][0]
-			pp  = data[author][block_number]['PP'][0]
-			pps = data[author][block_number]['PPS$'][0]
-			wp  = data[author][block_number]['WP'][0]
-			wps = data[author][block_number]['WP$'][0]
+			np  = data[author][block_number]['NP'][0]   if 'NP'  in data[author][block_number] else 0#[0] Get me the count
+			nps = data[author][block_number]['NPS'][0]  if 'NPS' in data[author][block_number] else 0
+			pp  = data[author][block_number]['PP'][0]   if 'PP'  in data[author][block_number] else 0
+			pps = data[author][block_number]['PP$'][0]  if 'PP$' in data[author][block_number] else 0
+			wp  = data[author][block_number]['WP'][0]   if 'WP'  in data[author][block_number] else 0
+			wps = data[author][block_number]['WP$'][0]  if 'WP$' in data[author][block_number] else 0
 
-			attribute_array.append(np + nps / float(pp+pps+wp+wps))
+			if (pp+pps+wp+wps) == 0:
+				attribute_array.append(np+nps)
+			else:
+				attribute_array.append((np + nps) / float(pp+pps+wp+wps))
 
-	print "Remove When validated:"
-	print "Atrribute PPN/ProN:", attribute_array
+	# print "Remove When validated:"
+	# print data.keys()
+	# print "Atrribute PPN/ProN:", attribute_array
 
 	return attribute_array
 
@@ -89,8 +93,8 @@ def get_attirbute_class_value_array(data):
 		for i in range(0, len(data[key])):
 			class_array.append(key)
 
-	print "Remove when validated:"
-	print "Class Array:", class_array
+	# print "Remove when validated:"
+	# print "Class Array:", class_array
 
 	return class_array
 
@@ -118,11 +122,11 @@ def write_header_to_file(data, file_name):
 	arff_file = open(file_name, 'w')
 
 	#Print Name of Database
-	arff_file.write('@relation \'BOM_By_Author\'')
+	arff_file.write('@relation \'BOM_By_Author\'\n')
 
 	#Print Atributes
 	for att in attribute_builder_functions_array:
-		arff_file.write('@attribute ' + att[1] + 'numeric')
+		arff_file.write('@attribute ' + att[1] + ' numeric\n')
 
 	#Get Classes
 	string_of_authors_with_commas = ""
@@ -130,7 +134,7 @@ def write_header_to_file(data, file_name):
 		string_of_authors_with_commas = string_of_authors_with_commas + (',' if len(string_of_authors_with_commas) > 0 else "") + author
 
 	#Print Classes
-	arff_file.write('@attribute class {' + string_of_authors_with_commas + '}')
+	arff_file.write('@attribute class {' + string_of_authors_with_commas + '}\n')
 
 	arff_file.close()
 
@@ -149,7 +153,7 @@ def write_header_to_file(data, file_name):
 def write_data_to_file(data, file_name):
 	arff_file = open(file_name, 'a')
 
-	arff_file.write('@data')
+	arff_file.write('@data\n')
 
 	#Build Attribute arrays
 	att_arrays = []
@@ -174,11 +178,11 @@ def write_data_to_file(data, file_name):
 	for i in range(0, curr_length):
 		str_instance = ""
 		for array in att_arrays:
-			str_instance = str_instance + (',' if len(str_instance) > 0 else '') + array[i]
-		arff_file.write(str_instance)
+			str_instance = str_instance + (',' if len(str_instance) > 0 else '') + str(array[i])
+		arff_file.write(str_instance + '\n')
 
 	arff_file.close()
 
-	print "Arff Generation:: Wrote:", len(att_arrays), "attributes, for", curr_length, 'instances.'
+	print "Arff Generation(", file_name, "):: Wrote:", len(att_arrays) - 1 , "attribute(s), for", curr_length, 'instances.'
 
 	return
