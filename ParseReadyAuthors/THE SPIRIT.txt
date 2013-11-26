@@ -2,7 +2,7 @@ Behold/VBP
 the/DT
 Lord/NP
 hath/VBP
-delivered/UNKNOWN
+delivered/VBN
 him/PP
 into/IN
 thy/JJ
@@ -50,8 +50,8 @@ in/IN
 unbelief/NN
 Behold/VBP
 what/WP
-desirest/UNKNOWN
-thou/UNKNOWN
+desirest/VBN
+thou/VBN
 Believest/NP
 thou/NN
 that/IN
@@ -81,7 +81,7 @@ over/IN
 all/PDT
 the/DT
 earth/NN
-yea/UNKNOWN
+yea/VBN
 even/RB
 above/IN
 all/DT
@@ -91,8 +91,8 @@ art/NN
 thou/NN
 Nephi/NP
 because/IN
-thou/UNKNOWN
-believest/UNKNOWN
+thou/VBN
+believest/VBN
 in/IN
 the/DT
 Son/NP
@@ -125,7 +125,7 @@ a/DT
 sign/NN
 that/IN
 after/IN
-thou/UNKNOWN
+thou/VBN
 hast/VBP
 beheld/VBD
 the/DT
@@ -137,7 +137,7 @@ fruit/NN
 which/WDT
 thy/JJ
 father/NN
-tasted/UNKNOWN
+tasted/VBN
 thou/NN
 shalt/VBP
 also/RB
@@ -225,7 +225,7 @@ heaven/NN
 shall/MD
 very/RB
 soon/RB
-shine/UNKNOWN
+shine/VBN
 forth/RB
 among/IN
 all/PDT
@@ -269,7 +269,7 @@ therefore/IN
 every/DT
 tree/NN
 that/IN
-bringeth/UNKNOWN
+bringeth/VBN
 not/RB
 forth/RB
 good/JJ
@@ -370,7 +370,7 @@ virgin/NN
 a/DT
 precious/JJ
 and/CC
-chosen/UNKNOWN
+chosen/VBN
 vessel/NN
 who/WP
 shall/MD
@@ -489,7 +489,7 @@ according/VBG
 to/TO
 their/PP$
 infirmities/NNS
-Command/UNKNOWN
+Command/VBN
 thy/JJ
 children/NNS
 to/TO

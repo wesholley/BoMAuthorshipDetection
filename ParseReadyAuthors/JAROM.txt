@@ -179,7 +179,7 @@ many/JJ
 as/IN
 are/VBP
 not/RB
-stiffnecked/UNKNOWN
+stiffnecked/VBN
 and/CC
 have/VBP
 faith/NN
@@ -190,8 +190,8 @@ the/DT
 Holy/NP
 Spirit/NP
 which/WDT
-maketh/UNKNOWN
-manifest/UNKNOWN
+maketh/VBN
+manifest/VBN
 unto/IN
 the/DT
 children/NNS
@@ -241,7 +241,7 @@ And/RB
 they/PP
 profaned/VBD
 not/RB
-neither/UNKNOWN
+neither/VBN
 did/VBD
 they/PP
 blaspheme/VB
@@ -342,7 +342,7 @@ Lamanites/NP
 and/CC
 swept/VBD
 them/PP
-away/UNKNOWN
+away/VBN
 of/IN
 our/PP$
 lands/NNS

@@ -35,7 +35,7 @@ of/IN
 the/DT
 Lord/NP
 and/CC
-blessed/UNKNOWN
+blessed/VBN
 be/VB
 the/DT
 name/NN
@@ -94,8 +94,8 @@ joy/NN
 of/IN
 the/DT
 saints/NNS
-sunk/UNKNOWN
-deep/UNKNOWN
+sunk/VBN
+deep/VBN
 into/IN
 my/PP$
 heart/NN
@@ -122,7 +122,7 @@ and/CC
 supplication/NN
 for/IN
 mine/PP
-own/UNKNOWN
+own/VBN
 soul/NN
 and/RB
 all/PDT
@@ -604,7 +604,7 @@ dwelling/NN
 in/IN
 tents/NNS
 and/CC
-wandering/UNKNOWN
+wandering/VBN
 about/IN
 in/IN
 the/DT
@@ -670,7 +670,7 @@ till/IN
 the/DT
 land/NN
 and/CC
-raise/UNKNOWN
+raise/VBN
 all/DT
 manner/NN
 of/IN
@@ -984,4 +984,4 @@ mansions/NNS
 of/IN
 my/PP$
 Father/NP
-Amen/UNKNOWN
+Amen/VBN

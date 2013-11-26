@@ -107,15 +107,15 @@ or/CC
 their/PP$
 unbelief/NN
 for/IN
-thou/UNKNOWN
-knowest/UNKNOWN
+thou/VBN
+knowest/VBN
 concerning/IN
 all/PDT
 these/DT
 things/NNS
 Therefore/IN
 it/PP
-sufficeth/UNKNOWN
+sufficeth/VBN
 me/PP
 that/IN
 I/PP
@@ -162,7 +162,7 @@ covenant/NN
 which/WDT
 their/PP$
 fathers/NNS
-made/UNKNOWN
+made/VBN
 that/IN
 they/PP
 would/MD
@@ -852,7 +852,7 @@ with/IN
 their/PP$
 whole/JJ
 army/NN
-neither/UNKNOWN
+neither/VBN
 durst/VBP
 they/PP
 with/IN
@@ -869,7 +869,7 @@ and/CC
 they/PP
 should/MD
 fall/VB
-Neither/UNKNOWN
+Neither/VBN
 durst/VBP
 they/PP
 march/NN
@@ -879,7 +879,7 @@ the/DT
 city/NN
 of/IN
 Zarahemla/NP
-neither/UNKNOWN
+neither/VBN
 durst/VBP
 they/PP
 cross/VBP
@@ -1205,7 +1205,7 @@ did/VBD
 flee/VB
 before/IN
 them/PP
-northward/UNKNOWN
+northward/VBN
 And/RB
 thus/IN
 we/PP
@@ -1311,7 +1311,7 @@ did/VBD
 not/RB
 overtake/VB
 us/PP
-neither/UNKNOWN
+neither/VBN
 did/VBD
 Antipus/NP
 overtake/VB
@@ -1396,7 +1396,7 @@ they/PP
 should/MD
 be/VB
 surrounded/VBN
-neither/UNKNOWN
+neither/VBN
 would/MD
 I/PP
 turn/VB
@@ -1481,7 +1481,7 @@ did/VBD
 not/RB
 pursue/VB
 us/PP
-far/UNKNOWN
+far/VBN
 before/IN
 they/PP
 halted/VBD
@@ -1707,7 +1707,7 @@ long/JJ
 march/NN
 in/IN
 so/RB
-short/UNKNOWN
+short/VBN
 a/DT
 space/NN
 of/IN
@@ -1866,7 +1866,7 @@ were/VBD
 many/JJ
 of/IN
 them/PP
-slain/UNKNOWN
+slain/VBN
 But/CC
 behold/VBP
 to/TO
@@ -1880,7 +1880,7 @@ one/CD
 soul/NN
 of/IN
 them/PP
-fallen/UNKNOWN
+fallen/VBN
 to/TO
 the/DT
 earth/NN
@@ -2241,7 +2241,7 @@ behold/VBP
 we/PP
 were/VBD
 strong/JJ
-yea/UNKNOWN
+yea/VBN
 and/CC
 we/PP
 had/VBD
@@ -3033,7 +3033,7 @@ did/VBD
 perish/VB
 yea/RB
 and/CC
-neither/UNKNOWN
+neither/VBN
 was/VBD
 there/RB
 one/CD
@@ -3159,7 +3159,7 @@ after/IN
 we/PP
 had/VBD
 thus/IN
-taken/UNKNOWN
+taken/VBN
 care/NN
 of/IN
 our/PP$
@@ -3472,7 +3472,7 @@ did/VBD
 profit/VB
 us/PP
 but/CC
-little/UNKNOWN
+little/VBN
 for/IN
 the/DT
 Lamanites/NP
@@ -3671,7 +3671,7 @@ to/TO
 our/PP$
 overthrow/NN
 and/CC
-utter/UNKNOWN
+utter/VBN
 destruction/NN
 Therefore/IN
 we/PP
@@ -3865,7 +3865,7 @@ that/IN
 when/WRB
 the/DT
 Lamanites/NP
-saw/UNKNOWN
+saw/VBN
 that/IN
 we/PP
 were/VBD
@@ -4049,13 +4049,13 @@ my/PP$
 army/NN
 in/IN
 that/IN
-same/UNKNOWN
+same/VBN
 place/NN
 where/WRB
 we/PP
 had/VBD
 first/NN
-pitched/UNKNOWN
+pitched/VBN
 our/PP$
 tents/NNS
 against/IN
@@ -4329,7 +4329,7 @@ And/RB
 when/WRB
 the/DT
 Lamanites/NP
-saw/UNKNOWN
+saw/VBN
 that/IN
 they/PP
 were/VBD
@@ -4364,7 +4364,7 @@ into/IN
 the/DT
 wilderness/NN
 again/RB
-yea/UNKNOWN
+yea/VBN
 even/RB
 back/VBP
 by/IN
@@ -4701,7 +4701,7 @@ grant/VB
 us/PP
 more/JJR
 strength/NN
-neither/UNKNOWN
+neither/VBN
 do/VBP
 those/DT
 men/NNS
@@ -4793,7 +4793,7 @@ sent/VBN
 But/CC
 behold/VBP
 it/PP
-mattereth/UNKNOWN
+mattereth/VBN
 not/RB
 we/PP
 trust/VBP
@@ -4807,7 +4807,7 @@ weakness/NN
 of/IN
 our/PP$
 armies/NNS
-yea/UNKNOWN
+yea/VBN
 and/CC
 deliver/VBP
 us/PP
@@ -4876,7 +4876,7 @@ Lord/NP
 has/VBZ
 supported/VBN
 them/PP
-yea/UNKNOWN
+yea/VBN
 and/CC
 kept/VBD
 them/PP

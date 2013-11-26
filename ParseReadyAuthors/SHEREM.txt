@@ -20,7 +20,7 @@ also/RB
 know/VBP
 that/IN
 thou/NN
-goest/UNKNOWN
+goest/VBN
 about/IN
 much/NN
 preaching/VBG
@@ -53,7 +53,7 @@ way/NN
 of/IN
 God/NP
 and/CC
-keep/UNKNOWN
+keep/VBN
 not/RB
 the/DT
 law/NN
@@ -65,7 +65,7 @@ the/DT
 right/JJ
 way/NN
 and/RB
-convert/UNKNOWN
+convert/VBN
 the/DT
 law/NN
 of/IN
@@ -100,7 +100,7 @@ blasphemy/NN
 for/IN
 no/DT
 man/NN
-knoweth/UNKNOWN
+knoweth/VBN
 of/IN
 such/JJ
 things/NNS
@@ -131,14 +131,14 @@ there/EX
 is/VBZ
 no/DT
 Christ/NP
-neither/UNKNOWN
+neither/VBN
 has/VBZ
 been/VBN
 nor/CC
 ever/RB
 will/MD
 be/VB
-Yea/UNKNOWN
+Yea/VBN
 Show/VBP
 me/PP
 a/DT
@@ -156,7 +156,7 @@ which/WDT
 ye/DT
 know/VBP
 so/RB
-much/UNKNOWN
+much/VBN
 Gather/VBP
 together/RB
 on/IN
@@ -216,7 +216,7 @@ because/IN
 I/PP
 have/VBP
 thus/IN
-lied/UNKNOWN
+lied/VBN
 unto/IN
 God/NP
 I/NP

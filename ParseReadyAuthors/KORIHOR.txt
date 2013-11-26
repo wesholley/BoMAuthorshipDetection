@@ -92,7 +92,7 @@ a/DT
 Christ/NP
 Ye/DT
 look/NN
-forward/UNKNOWN
+forward/VBN
 and/CC
 say/VBP
 that/IN
@@ -130,7 +130,7 @@ fathers/NNS
 which/WDT
 lead/VBP
 you/PP
-away/UNKNOWN
+away/VBN
 into/IN
 a/DT
 belief/NN
@@ -455,8 +455,8 @@ nor/CC
 ever/RB
 will/MD
 be/VB
-Yea/UNKNOWN
-Nay/UNKNOWN
+Yea/VBN
+Nay/VBN
 If/IN
 thou/NN
 wilt/NN
@@ -474,7 +474,7 @@ there/EX
 is/VBZ
 a/DT
 God/NP
-yea/UNKNOWN
+yea/VBN
 show/VBP
 unto/IN
 me/PP
@@ -564,7 +564,7 @@ I/PP
 know/VBP
 that/IN
 nothing/NN
-save/UNKNOWN
+save/VBN
 it/PP
 were/VBD
 the/DT

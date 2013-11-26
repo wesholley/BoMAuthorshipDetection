@@ -225,7 +225,7 @@ Nevertheless/RB
 after/IN
 many/JJ
 days/NNS
-wandering/UNKNOWN
+wandering/VBN
 in/IN
 the/DT
 wilderness/NN
@@ -384,7 +384,7 @@ to/TO
 till/IN
 the/DT
 ground/NN
-yea/UNKNOWN
+yea/VBN
 even/RB
 with/IN
 all/DT
@@ -822,8 +822,8 @@ I/PP
 myself/PP
 with/IN
 mine/PP
-own/UNKNOWN
-hands/UNKNOWN
+own/VBN
+hands/VBN
 did/VBD
 help/VB
 to/TO
@@ -986,7 +986,7 @@ till/IN
 the/DT
 ground/NN
 and/CC
-raise/UNKNOWN
+raise/VBN
 all/DT
 manner/NN
 of/IN
@@ -1064,7 +1064,7 @@ pass/VB
 that/IN
 king/NN
 Laman/NP
-died/UNKNOWN
+died/VBN
 and/CC
 his/PP$
 son/NN
@@ -1161,7 +1161,7 @@ their/PP$
 numerous/JJ
 hosts/NNS
 men/NNS
-armed/UNKNOWN
+armed/VBN
 with/IN
 bows/NNS
 and/CC
@@ -1626,7 +1626,7 @@ Nephi/NP
 For/IN
 this/DT
 very/RB
-cause/UNKNOWN
+cause/VBN
 has/VBZ
 king/NN
 Laman/NP
@@ -1634,7 +1634,7 @@ by/IN
 his/PP$
 cunning/NN
 and/CC
-lying/UNKNOWN
+lying/VBN
 craftiness/NN
 and/CC
 his/PP$
@@ -1791,4 +1791,4 @@ Lord/NP
 bless/VB
 my/PP$
 people/NNS
-Amen/UNKNOWN
+Amen/VBN

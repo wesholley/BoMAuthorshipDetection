@@ -188,7 +188,7 @@ of/IN
 the/DT
 evil/JJ
 one/CD
-work/UNKNOWN
+work/VBN
 some/DT
 great/JJ
 mystery/NN

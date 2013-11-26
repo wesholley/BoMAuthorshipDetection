@@ -166,15 +166,15 @@ a/DT
 treasure/NN
 in/IN
 heaven/NN
-yea/UNKNOWN
+yea/VBN
 which/WDT
 is/VBZ
 eternal/JJ
 and/CC
 which/WDT
-fadeth/UNKNOWN
+fadeth/VBN
 not/RB
-away/UNKNOWN
+away/VBN
 yea/RB
 that/IN
 ye/DT
@@ -331,7 +331,7 @@ conditions/NNS
 of/IN
 repentance/NN
 which/WDT
-bringeth/UNKNOWN
+bringeth/VBN
 unto/IN
 the/DT
 power/NN

@@ -121,7 +121,7 @@ the/DT
 remainder/NN
 of/IN
 them/PP
-broke/UNKNOWN
+broke/VBN
 through/IN
 and/CC
 fled/VBD
@@ -179,7 +179,7 @@ of/IN
 our/PP$
 enemies/NNS
 And/RB
-blessed/UNKNOWN
+blessed/VBN
 is/VBZ
 the/DT
 name/NN

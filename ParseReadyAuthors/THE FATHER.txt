@@ -36,7 +36,7 @@ and/CC
 faithful/JJ
 He/PP
 that/IN
-endureth/UNKNOWN
+endureth/VBN
 to/TO
 the/DT
 end/NN
@@ -73,9 +73,9 @@ Begotten/NP
 Son/NP
 Therefore/IN
 whosoever/PP
-repenteth/UNKNOWN
+repenteth/VBN
 and/CC
-hardeneth/UNKNOWN
+hardeneth/VBN
 not/RB
 his/PP$
 heart/NN
@@ -499,7 +499,7 @@ Gentiles/NP
 shall/MD
 make/VB
 them/PP
-mighty/UNKNOWN
+mighty/VBN
 above/IN
 all/DT
 unto/IN
@@ -580,7 +580,7 @@ them/PP
 together/RB
 in/IN
 mine/PP
-own/UNKNOWN
+own/VBN
 due/JJ
 time/NN
 that/IN
@@ -611,7 +611,7 @@ promised/JJ
 land/NN
 unto/IN
 them/PP
-forever/UNKNOWN
+forever/VBN
 for/IN
 it/PP
 shall/MD
@@ -693,7 +693,7 @@ thou/NN
 shalt/VBP
 no/RB
 more/RB
-worship/UNKNOWN
+worship/VBN
 the/DT
 works/NNS
 of/IN
@@ -733,7 +733,7 @@ envyings/NNS
 and/CC
 strifes/NNS
 and/CC
-priestcrafts/UNKNOWN
+priestcrafts/VBN
 and/CC
 whoredoms/NNS
 shall/MD
@@ -880,7 +880,7 @@ shall/MD
 stand/VB
 when/WRB
 he/PP
-appeareth/UNKNOWN
+appeareth/VBN
 For/IN
 he/PP
 is/VBZ
@@ -890,7 +890,7 @@ refiner/NN
 's/POS
 fire/NN
 and/CC
-like/UNKNOWN
+like/VBN
 fuller/NN
 's/POS
 soap/NN
@@ -997,7 +997,7 @@ the/DT
 fatherless/JJ
 and/CC
 that/IN
-turn/UNKNOWN
+turn/VBN
 aside/NN
 the/DT
 stranger/NN
@@ -1163,7 +1163,7 @@ fruits/NNS
 of/IN
 your/PP$
 ground/NN
-neither/UNKNOWN
+neither/VBN
 shall/MD
 your/PP$
 vine/NN
@@ -1219,7 +1219,7 @@ and/CC
 what/WP
 doth/VBP
 it/PP
-profit/UNKNOWN
+profit/VBN
 that/IN
 we/PP
 have/VBP
@@ -1287,7 +1287,7 @@ his/PP$
 own/JJ
 son/NN
 that/IN
-serveth/UNKNOWN
+serveth/VBN
 him/PP
 Then/RB
 shall/MD
@@ -1304,12 +1304,12 @@ wicked/JJ
 between/IN
 him/PP
 that/IN
-serveth/UNKNOWN
+serveth/VBN
 God/NP
 and/CC
 him/PP
 that/IN
-serveth/UNKNOWN
+serveth/VBN
 him/PP
 not/RB
 For/IN
@@ -1327,7 +1327,7 @@ and/RB
 all/PDT
 the/DT
 proud/JJ
-yea/UNKNOWN
+yea/VBN
 and/CC
 all/DT
 that/IN
@@ -1350,7 +1350,7 @@ it/PP
 shall/MD
 leave/VB
 them/PP
-neither/UNKNOWN
+neither/VBN
 root/VBP
 nor/CC
 branch/VBP

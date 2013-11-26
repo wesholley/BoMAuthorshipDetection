@@ -29,7 +29,7 @@ thou/NN
 this/DT
 man/NN
 and/CC
-hearest/UNKNOWN
+hearest/VBN
 him/PP
 revile/VBP
 against/IN

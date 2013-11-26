@@ -144,7 +144,7 @@ thou/NN
 art/NN
 holy/NN
 and/CC
-dwellest/UNKNOWN
+dwellest/VBN
 in/IN
 the/DT
 heavens/NNS
@@ -232,10 +232,10 @@ me/PP
 in/IN
 pity/NN
 and/CC
-turn/UNKNOWN
-away/UNKNOWN
-thine/UNKNOWN
-anger/UNKNOWN
+turn/VBN
+away/VBN
+thine/VBN
+anger/VBN
 from/IN
 this/DT
 thy/JJ
@@ -382,9 +382,9 @@ had/VBD
 flesh/NN
 and/CC
 blood/NN
-Nay/UNKNOWN
+Nay/VBN
 Lord/NN
-show/UNKNOWN
+show/VBN
 thyself/PP
 unto/IN
 me/PP
@@ -407,10 +407,10 @@ truth/NN
 and/CC
 canst/VBP
 not/RB
-lie/UNKNOWN
+lie/VBN
 Let/VBP
 us/PP
-gather/UNKNOWN
+gather/VBN
 together/RB
 our/PP$
 people/NNS
@@ -441,7 +441,7 @@ graves/NNS
 Surely/RB
 this/DT
 thing/NN
-leadeth/UNKNOWN
+leadeth/VBN
 into/IN
 captivity/NN
 Choose/VBP

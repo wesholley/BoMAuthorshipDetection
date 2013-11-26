@@ -337,17 +337,17 @@ things/NNS
 known/JJ
 unto/IN
 us/PP
-beforehand/UNKNOWN
+beforehand/VBN
 because/IN
 he/PP
-loveth/UNKNOWN
+loveth/VBN
 our/PP$
 souls/NNS
 as/RB
 well/RB
 as/IN
 he/PP
-loveth/UNKNOWN
+loveth/VBN
 our/PP$
 children/NNS
 therefore/IN
@@ -414,7 +414,7 @@ let/VBP
 us/PP
 hide/VB
 them/PP
-away/UNKNOWN
+away/VBN
 that/IN
 they/PP
 may/MD
@@ -471,7 +471,7 @@ and/CC
 has/VBZ
 made/VBN
 us/PP
-clean/UNKNOWN
+clean/VBN
 thereby/RB
 And/RB
 now/RB
@@ -491,7 +491,7 @@ hide/VB
 away/JJ
 our/PP$
 swords/NNS
-yea/UNKNOWN
+yea/VBN
 even/RB
 we/PP
 will/MD
@@ -549,7 +549,7 @@ the/DT
 many/JJ
 murders/NNS
 and/CC
-sins/UNKNOWN
+sins/VBN
 we/PP
 have/VBP
 committed/VBN

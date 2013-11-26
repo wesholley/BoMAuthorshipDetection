@@ -50,7 +50,7 @@ that/WDT
 mourn/VB
 yea/RB
 and/CC
-comfort/UNKNOWN
+comfort/VBN
 those/DT
 that/WDT
 stand/VBP
@@ -151,7 +151,7 @@ will/MD
 serve/VB
 him/PP
 and/CC
-keep/UNKNOWN
+keep/VBN
 his/PP$
 commandments/NNS
 that/IN
@@ -369,7 +369,7 @@ in/IN
 his/PP$
 hands/NNS
 in/IN
-bringing/UNKNOWN
+bringing/VBN
 so/RB
 many/JJ
 of/IN
@@ -500,7 +500,7 @@ over/IN
 you/PP
 And/RB
 also/RB
-trust/UNKNOWN
+trust/VBN
 no/DT
 one/NN
 to/TO
@@ -517,7 +517,7 @@ a/DT
 man/NN
 of/IN
 God/NP
-walking/UNKNOWN
+walking/VBN
 in/IN
 his/PP$
 ways/NNS
