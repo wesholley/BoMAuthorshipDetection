@@ -50,8 +50,9 @@ def process_author_interjection_file(fileName):
 ############################################################
 def process_author_file(fileName):
 
-	author, block, junk = fileName.split('-')
-	
+	author, end = fileName.split('-')
+	block, extension = end.split('.')
+
 	#TODO::: Call process_author_interjection_file(author+'-'+block+'-interjection.inter')
 
 	# Adds the author to "data" if they aren't already there
@@ -92,9 +93,9 @@ if __name__ == '__main__':
 
 	print "Processed: ", cnt, " \".txt\" files."
 	print "Data structure written to data.data for review."
-	data_file = open('data.data', 'w')
+	data_file = open('../data.data', 'w')
 	data_file.write(str(data))
 
-	write_data_to_weka_data_file(data, 'test.arff')
+	write_data_to_weka_data_file(data, '../test.arff')
 
 	print "...Done."
