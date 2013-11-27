@@ -43,6 +43,29 @@ def generate_array_of_Percent_ProperNouns_Vs_Pronouns(data):
 	return attribute_array
 
 ############################################################
+# This function will return an array that represents the
+# attribute value of Most Frequently Used Interjection
+#
+# A list of all possible interjections is also defined
+#
+############################################################
+all_interjections = "{yea, o, oh, wo, woe, ah, nay, hallelujah, alleluia, alas, amen, lo, indeed, verily, adieu, behold, no, farewell}"
+def gen_array_of_Most_Frequent_Interjection(data):
+        attribute_array = []
+
+        for author in data.keys():
+                for block_number in range(0, len(data[author])):
+                        inter_dict = data[author][block_number]['Interjections']
+                        count = 0
+                        for inter in inter_dict.keys():
+                                if inter_dict[inter] > count:
+                                        count = inter_dict[inter]
+                                        best_inter = inter
+
+                        attribute_array.append(best_inter)
+        return attribute_array
+
+############################################################
 # This array will be used to build the final weka.arff file.
 # The way it works is this:
 #
@@ -75,11 +98,10 @@ def generate_array_of_Percent_ProperNouns_Vs_Pronouns(data):
 # by calling the function in the array with the 'data' object/dictionary
 # found in posCounter.py
 #
-# Format: [(function, 'nameOfAtribute'),...]
+# Format: [(function, 'nameOfAttribute', [attribute, values]),...]
 ############################################################
-attribute_builder_functions_array = [ (generate_array_of_Percent_ProperNouns_Vs_Pronouns, 'properNounsVsPronouns')]
-
-
+attribute_builder_functions_array = [ (generate_array_of_Percent_ProperNouns_Vs_Pronouns, 'properNounsVsPronouns', 'numeric'),
+                                      (gen_array_of_Most_Frequent_Interjection, 'MostFrequentInterjection', all_interjections) ]
 
 
 ########################Create the General Structure of the ARFF File###################################
@@ -103,7 +125,9 @@ def get_attirbute_class_value_array(data):
 # Writes the bom_data to a file_name.arff Weka file
 ############################################################
 def write_data_to_weka_data_file(data, file_name):
+	print("Printing header information...")
 	write_header_to_file(data, file_name)
+	print("Printing attribute data")
 	write_data_to_file(data, file_name)
 	return
 
@@ -124,9 +148,9 @@ def write_header_to_file(data, file_name):
 	#Print Name of Database
 	arff_file.write('@relation \'BOM_By_Author\'\n')
 
-	#Print Atributes
+	#Print Attributes
 	for att in attribute_builder_functions_array:
-		arff_file.write('@attribute ' + att[1] + ' numeric\n')
+		arff_file.write('@attribute ' + att[1] + ' '+ att[2] +'\n')
 
 	#Get Classes
 	string_of_authors_with_commas = ""
@@ -168,10 +192,10 @@ def write_data_to_file(data, file_name):
 	curr_length = len(att_arrays[0]) 
 	for array in att_arrays:
 		if not len(array) == curr_length:
-			print "\n\n\tHOLLY COW!!!!"
-			print "We have an error in our attribute array generation!"
-			print "I just discovered that the lengths of our attribute arrays don't match!"
-			print "I'm going to blow chunks and die!!"
+			print ("\n\n\tHOLLY COW!!!!")
+			print ("We have an error in our attribute array generation!")
+			print ("I just discovered that the lengths of our attribute arrays don't match!")
+			print ("I'm going to blow chunks and die!!")
 			return
 
 	#Write attribute and class values to file_name
@@ -183,6 +207,6 @@ def write_data_to_file(data, file_name):
 
 	arff_file.close()
 
-	print "Arff Generation(", file_name, "):: Wrote:", len(att_arrays) - 1 , "attribute(s), for", curr_length, 'instances.'
+	print ("Arff Generation(", file_name, "):: Wrote:", len(att_arrays) - 1 , "attribute(s), for", curr_length, 'instances.')
 
 	return

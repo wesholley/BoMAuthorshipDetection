@@ -39,7 +39,10 @@ data = {}
 # it to 'data'
 ############################################################
 def process_author_interjection_file(fileName):
-	return
+        file = open(fileName, 'r')
+        ret_dict = eval(file.read())
+        file.close()
+        return ret_dict
 
 
 ############################################################
@@ -56,9 +59,9 @@ def process_author_file(fileName):
 	author, txt_block, end = fileName.split('_')
 	block, extension       = end.split('.')
 
-	print author, block
+	#print author, block
 
-	#TODO::: Call process_author_interjection_file(author+'-'+block+'-interjection.inter')
+	inter_dict = process_author_interjection_file(author+'-'+block+'-interjections.inter')
 
 	# Adds the author to "data" if they aren't already there
 	if not author in data.keys():
@@ -79,6 +82,9 @@ def process_author_file(fileName):
 		block[pos][0] = block[pos][0] + 1 	#Count the number of Parts of Speech
 		block[pos][1].append(word)			#Keep track of each Part of Speech
 
+	# Include interjection dictionary in block
+	block['Interjections'] = inter_dict
+        
 	# Add block to author
 	data[author].append(block)
 
@@ -94,13 +100,13 @@ if __name__ == '__main__':
 	for fileName in os.listdir("."):
 	    if fileName.endswith(".txt"):
 	    	cnt = cnt + 1
-	        process_author_file(fileName)
+	    	process_author_file(fileName)
 
-	print "Processed: ", cnt, " \".txt\" files."
-	print "Data structure written to data.data for review."
+	print ("Processed: ", cnt, " \".txt\" files.")
+	print ("Data structure written to data.data for review.")
 	data_file = open('../data.data', 'w')
 	data_file.write(str(data))
 
 	write_data_to_weka_data_file(data, '../test.arff')
 
-	print "...Done."
+	print ("...Done.")

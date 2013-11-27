@@ -7,15 +7,16 @@ output_dir = '../TestDirectory'
 
 #these are always interjections in the Book of Mormon
 interjections = ['yea', 'o', 'oh', 'wo', 'woe', 'ah', 'nay', 'hallelujah',
-                 'alleluia' , 'alas', 'amen', 'lo', 'indeed', 'well']
+                 'alleluia' , 'alas', 'amen', 'lo', 'indeed', 'verily', 'adieu']
 
 #these next two vary, depending on the context
 
 #these need to check whether they are immediately followed by punctuation
-punc_interjections = ['behold', 'no']
+punc_interjections = ['behold', 'no', 'farewell']
 #this dict checks whether the key word is followed by a value word (ignore punc)
 next_word_interjections = {
-    'behold':['i', 'we', 'mine', 'there', 'how']}
+    'behold':['i', 'we', 'mine', 'there', 'how'],
+    'farewell':['until']}
 
 def check_context(word, word_no_punc, next_word):
     if word_no_punc in punc_interjections:
@@ -64,20 +65,16 @@ def get_block(file, writefile):
     writefile = open(writefile, 'w')
     writefile.write(repr(map_interjections(block_200, block_200_no_punc)))
     writefile.close()
-    map_interjections(block_200, block_200_no_punc)
     file.close()
     
 def main():
-    for folder in os.listdir(input_dir):
-        path = [input_dir, '/', folder]
-        for file in os.listdir(''.join(path)):
-            filepath = path
-            if file.endswith('.txt'):
-                author, block, good = file.split('_')
-                block_num, extension = good.split('.')
-                writefile = author + "-" + block_num + "-interjections.inter"
-                get_block(''.join(filepath)+'/'+file,
-                          output_dir+'/'+writefile)
+    for file in os.listdir(input_dir):
+        if file.endswith('.txt'):
+            author, block, good = file.split('_')
+            block_num, extension = good.split('.')
+            writefile = author + "-" + block_num + "-interjections.inter"
+            get_block(input_dir+'/'+file,
+                      output_dir+'/'+writefile)
     print("All Done!")
 
 if __name__ == '__main__':
