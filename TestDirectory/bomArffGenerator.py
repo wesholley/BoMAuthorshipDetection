@@ -50,19 +50,23 @@ def generate_array_of_Percent_ProperNouns_Vs_Pronouns(data):
 #
 ############################################################
 all_interjections = "{yea, o, oh, wo, woe, ah, nay, hallelujah, alleluia, alas, amen, lo, indeed, verily, adieu, behold, no, farewell}"
-def gen_array_of_Most_Frequent_Interjection(data):
+def gen_array_of_count_of_most_frequent_interjection(data):
         attribute_array = []
 
         for author in data.keys():
                 for block_number in range(0, len(data[author])):
                         inter_dict = data[author][block_number]['Interjections']
+                        # print author, block_number, ":"
+                        # print inter_dict
                         count = 0
+                        best_inter = None
                         for inter in inter_dict.keys():
                                 if inter_dict[inter] > count:
                                         count = inter_dict[inter]
                                         best_inter = inter
-
-                        attribute_array.append(best_inter)
+    
+                        # if best_inter != None:
+                        attribute_array.append(count)
         return attribute_array
 
 ############################################################
@@ -101,7 +105,7 @@ def gen_array_of_Most_Frequent_Interjection(data):
 # Format: [(function, 'nameOfAttribute', [attribute, values]),...]
 ############################################################
 attribute_builder_functions_array = [ (generate_array_of_Percent_ProperNouns_Vs_Pronouns, 'properNounsVsPronouns', 'numeric'),
-                                      (gen_array_of_Most_Frequent_Interjection, 'MostFrequentInterjection', all_interjections) ]
+                                      (gen_array_of_count_of_most_frequent_interjection, 'countOfMostFrequentInterjection', 'numeric') ]
 
 
 ########################Create the General Structure of the ARFF File###################################
@@ -207,6 +211,6 @@ def write_data_to_file(data, file_name):
 
 	arff_file.close()
 
-	print ("Arff Generation(", file_name, "):: Wrote:", len(att_arrays) - 1 , "attribute(s), for", curr_length, 'instances.')
+	print "Arff Generation(", file_name, "):: Wrote:", len(att_arrays) - 1 , "attribute(s), for", curr_length, 'instances.'
 
 	return
