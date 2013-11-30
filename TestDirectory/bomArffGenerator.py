@@ -131,7 +131,7 @@ def get_attirbute_class_value_array(data):
 def write_data_to_weka_data_file(data, file_name):
 	print("Printing header information...")
 	write_header_to_file(data, file_name)
-	print("Printing attribute data")
+	print("Printing attribute data...")
 	write_data_to_file(data, file_name)
 	return
 

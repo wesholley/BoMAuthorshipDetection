@@ -90,6 +90,18 @@ def process_author_file(fileName):
 
 	return
 
+def remove_authors_with_small_numbers_of_blocks():
+	threshold = 10
+	keys = data.keys()
+	count = 0
+	for key in keys:
+		if len(data[key]) <= threshold:
+			del data[key]
+			count = count + 1
+
+	print 'Removed \'', count, '\' authors from data due to block cnt less than \'', threshold,'\''
+	print 'Keeping', len(data), 'authors.'
+
 ############################################################
 # Goal: Nice Data structure to query any pos statistic 
 #		required.
@@ -103,6 +115,10 @@ if __name__ == '__main__':
 	    	process_author_file(fileName)
 
 	print ("Processed: ", cnt, " \".txt\" files.")
+
+	#Clean Authors: Remove Authors with less than 10 Blocks
+	remove_authors_with_small_numbers_of_blocks()
+
 	print ("Data structure written to data.data for review.")
 	data_file = open('../data.data', 'w')
 	data_file.write(str(data))
