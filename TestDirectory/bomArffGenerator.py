@@ -70,6 +70,27 @@ def gen_array_of_count_of_most_frequent_interjection(data):
         return attribute_array
 
 ############################################################
+# This function will return an array that represents the
+# attribute value of Most Frequently Used Interjection
+#
+# A list of all possible interjections is also defined
+#
+############################################################
+def gen_array_of_count_of_unique_interjection_used(data):
+	attribute_array = []
+	
+	for author in data.keys():
+			for block_number in range(0, len(data[author])):
+					unique = set()
+					inter_dict = data[author][block_number]['Interjections']
+					for inter in inter_dict:
+						unique.add(inter)
+					attribute_array.append(len(unique))
+	
+	return attribute_array
+			
+
+############################################################
 # This array will be used to build the final weka.arff file.
 # The way it works is this:
 #
@@ -105,7 +126,8 @@ def gen_array_of_count_of_most_frequent_interjection(data):
 # Format: [(function, 'nameOfAttribute', [attribute, values]),...]
 ############################################################
 attribute_builder_functions_array = [ (generate_array_of_Percent_ProperNouns_Vs_Pronouns, 'properNounsVsPronouns', 'numeric'),
-                                      (gen_array_of_count_of_most_frequent_interjection, 'countOfMostFrequentInterjection', 'numeric') ]
+                                      (gen_array_of_count_of_most_frequent_interjection, 'countOfMostFrequentInterjection', 'numeric'),
+                                      (gen_array_of_count_of_unique_interjection_used, 'countOfUniqueInterjectionsUsed', 'numeric') ]
 
 
 ########################Create the General Structure of the ARFF File###################################
@@ -183,7 +205,7 @@ def write_data_to_file(data, file_name):
 
 	arff_file.write('@data\n')
 
-	#Build Attribute arrays
+	#Build Attribute arrays, call the functions
 	att_arrays = []
 	for att in attribute_builder_functions_array:
 		att_arrays.append(att[0](data))
