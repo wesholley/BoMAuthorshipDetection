@@ -91,7 +91,7 @@ def process_author_file(fileName):
 	return
 
 def remove_authors_with_small_numbers_of_blocks():
-	threshold = 10
+	threshold = 39
 	keys = data.keys()
 	count = 0
 	for key in keys:
