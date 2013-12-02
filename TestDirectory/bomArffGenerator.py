@@ -89,6 +89,25 @@ def gen_array_of_count_of_unique_interjection_used(data):
 	
 	return attribute_array
 			
+############################################################
+# This function 
+# 
+#
+# A list of all possible interjections is also defined
+#
+############################################################
+def get_number_of_adjectives(data):
+	attribute_array = []
+
+	for author in data.keys():
+		for block_number in range(0, len(data[author])):
+			jj  = data[author][block_number]['JJ'][0]   if 'JJ'  in data[author][block_number] else 0 # [0] Get me the count
+			jjr = data[author][block_number]['JJR'][0]  if 'JJR' in data[author][block_number] else 0
+			jjs = data[author][block_number]['JJS'][0]   if 'JJS'  in data[author][block_number] else 0
+
+			attribute_array.append(jj+jjr+jjs)
+			
+	return attribute_array
 
 ############################################################
 # This array will be used to build the final weka.arff file.
@@ -127,7 +146,8 @@ def gen_array_of_count_of_unique_interjection_used(data):
 ############################################################
 attribute_builder_functions_array = [ (generate_array_of_Percent_ProperNouns_Vs_Pronouns, 'properNounsVsPronouns', 'numeric'),
                                       (gen_array_of_count_of_most_frequent_interjection, 'countOfMostFrequentInterjection', 'numeric'),
-                                      (gen_array_of_count_of_unique_interjection_used, 'countOfUniqueInterjectionsUsed', 'numeric') ]
+                                      (gen_array_of_count_of_unique_interjection_used, 'countOfUniqueInterjectionsUsed', 'numeric'),
+                                      (get_number_of_adjectives, 'countOfAdjectives', 'numeric') ]
 
 
 ########################Create the General Structure of the ARFF File###################################
