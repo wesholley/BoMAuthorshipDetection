@@ -10,6 +10,31 @@
 ## how i build the class attribute array...
 
 ############################################################
+# Just for fun.  Generate the number of unique words each
+# author used in a block...hope to flesh out some type
+# of vocabulary level.
+############################################################
+def gen_array_of_number_of_unique_words(data):
+	attribute_array = []
+
+	for author in data.keys():
+		for block_number in range(0, len(data[author])):
+			temp = []
+			for pos in data[author][block_number]:
+				if not pos == 'Interjections':
+					for word in data[author][block_number][pos][1]:
+						if not (word in temp):
+							temp.append(word)
+
+			attribute_array.append(len(temp))
+
+	# print "Unique Words:"
+	# print attribute_array
+
+	return attribute_array
+
+
+############################################################
 # This function will return an array that represents the
 # attribute value of %ProperNouns versus Pronouns.
 # the i'th value represents the i'th instance in our database.
@@ -35,6 +60,7 @@ def generate_array_of_Percent_ProperNouns_Vs_Pronouns(data):
 				attribute_array.append(np+nps)
 			else:
 				attribute_array.append((np + nps) / float(pp+pps+wp+wps))
+			# print author, attribute_array[len(attribute_array)-1]
 
 	# print "Remove When validated:"
 	# print data.keys()
@@ -147,7 +173,8 @@ def get_number_of_adjectives(data):
 attribute_builder_functions_array = [ (generate_array_of_Percent_ProperNouns_Vs_Pronouns, 'properNounsVsPronouns', 'numeric'),
                                       (gen_array_of_count_of_most_frequent_interjection, 'countOfMostFrequentInterjection', 'numeric'),
                                       (gen_array_of_count_of_unique_interjection_used, 'countOfUniqueInterjectionsUsed', 'numeric'),
-                                      (get_number_of_adjectives, 'countOfAdjectives', 'numeric') ]
+                                      (get_number_of_adjectives, 'countOfAdjectives', 'numeric'),
+                                      (gen_array_of_number_of_unique_words, 'uniqueWords', 'numeric') ]
 
 
 ########################Create the General Structure of the ARFF File###################################
