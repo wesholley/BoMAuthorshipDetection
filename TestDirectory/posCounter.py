@@ -100,15 +100,16 @@ def remove_authors_with_small_numbers_of_blocks():
 			del data[key]
 			count = count + 1
 
-	print 'Removed \'', count, '\' authors from data due to block cnt less than \'', threshold,'\''
+	print 'Removed \'', count, '\' authors from data due to block count less than \'', threshold,'\''
 	print 'Keeping', len(data), 'authors.'
+
 
 def undersample_with_num_blocks(num_blocks, data):
 
 	for author in data.keys():
 		num_blocks = len(data[author])
 
-		#Generate array of random indexs to pull out...
+		#Generate array of random indexes to pull out...
 		sample_indexes = []
 		for i in range(0, 70):
 			rand_index = randint(0,num_blocks-1)
@@ -125,6 +126,21 @@ def undersample_with_num_blocks(num_blocks, data):
 		data[author] = undersampled_data
 
 	return
+    
+# # Prepares the data for binary comparison (i.e., one author vs the rest)
+# def prepare_for_binary_comparison(author_name):
+#     
+#     
+#     return
+    
+# Prints the number of blocks each author has
+def print_numbers_of_blocks_per_author():
+    
+    print "\n"
+    for author in data.keys():
+        print author, len(data[author]), "blocks"
+    print"\n"        
+    return
 
 ############################################################
 # Goal: Nice Data structure to query any pos statistic 
@@ -142,9 +158,12 @@ if __name__ == '__main__':
 
 	#Clean Authors: Remove Authors with less than 10 Blocks
 	remove_authors_with_small_numbers_of_blocks()
-
+    
 	#UnderSample
-	undersample_with_num_blocks(70, data)
+# 	undersample_with_num_blocks(70, data)
+    
+        print_numbers_of_blocks_per_author()
+        prepare_for_binary_comparison("NEPHI (SON OF LEHI)")
 
 	print ("Data structure written to data.data for review.")
 	data_file = open('../data.data', 'w')
@@ -153,3 +172,4 @@ if __name__ == '__main__':
 	write_data_to_weka_data_file(data, '../test.arff')
 
 	print ("...Done.")
+
