@@ -1,4 +1,5 @@
 from bomArffGenerator import *
+from random import *
 
 ############################################################
 # DESCRIPTION:
@@ -102,6 +103,29 @@ def remove_authors_with_small_numbers_of_blocks():
 	print 'Removed \'', count, '\' authors from data due to block cnt less than \'', threshold,'\''
 	print 'Keeping', len(data), 'authors.'
 
+def undersample_with_num_blocks(num_blocks, data):
+
+	for author in data.keys():
+		num_blocks = len(data[author])
+
+		#Generate array of random indexs to pull out...
+		sample_indexes = []
+		for i in range(0, 70):
+			rand_index = randint(0,num_blocks-1)
+			while rand_index in sample_indexes:
+				rand_index = randint(0,num_blocks-1)
+
+			sample_indexes.append(rand_index)
+
+		undersampled_data = []
+		for i in sample_indexes:
+			undersampled_data.append(data[author][i])
+
+		print len(data[author]), len(undersampled_data)
+		data[author] = undersampled_data
+
+	return
+
 ############################################################
 # Goal: Nice Data structure to query any pos statistic 
 #		required.
@@ -118,6 +142,9 @@ if __name__ == '__main__':
 
 	#Clean Authors: Remove Authors with less than 10 Blocks
 	remove_authors_with_small_numbers_of_blocks()
+
+	#UnderSample
+	undersample_with_num_blocks(70, data)
 
 	print ("Data structure written to data.data for review.")
 	data_file = open('../data.data', 'w')
